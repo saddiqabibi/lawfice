@@ -13,7 +13,8 @@
         name="description">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Lawfice">
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5177822330952725"
+     crossorigin="anonymous"></script>
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -39,599 +40,591 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
-        /* ===== ADDITIONAL CUSTOM CSS ===== */
-
-        /* Emergency Bar */
-        .emergency-bar {
-            background: linear-gradient(135deg, #0d6efd, #0a58ca);
-            padding: 12px 0;
-            position: relative;
-        }
-
-        .emergency-bar .emergency-text {
-            color: #fff;
-            font-family: "Roboto Slab", serif;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            font-size: 16px;
-        }
-
-        .emergency-bar .emergency-text i {
-            font-size: 22px;
-            animation: pulse 1.5s infinite;
-        }
-
-        .emergency-bar .emergency-text .phone-number {
-            font-size: 22px;
-            color: #fff;
-            text-decoration: none;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 6px 24px;
-            border-radius: 50px;
-            transition: .3s;
-        }
-
-        .emergency-bar .emergency-text .phone-number:hover {
-            background: rgba(255, 255, 255, 0.35);
-            transform: scale(1.05);
-        }
-
-        @keyframes pulse {
-
-            0%,
-            100% {
-                transform: scale(1);
-            }
-
-            50% {
-                transform: scale(1.15);
-            }
-        }
-
-        /* Trust Indicators */
-        .trust-indicator {
-            background: var(--bs-dark);
-            padding: 25px 20px;
-            text-align: center;
-            border-radius: 12px;
-            border-left: 4px solid var(--bs-primary);
-            transition: .3s;
-        }
-
-        .trust-indicator:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-        }
-
-        .trust-indicator .trust-number {
-            font-size: 40px;
-            font-weight: 700;
-            color: var(--bs-primary);
-            font-family: "Roboto Slab", serif;
-        }
-
-        .trust-indicator .trust-label {
-            color: #e6e6e6;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        /* Why Choose Us */
-        .why-item {
-            background: var(--bs-dark);
-            padding: 30px 25px;
-            border-radius: 12px;
-            text-align: center;
-            transition: .4s;
-            height: 100%;
-        }
-
-        .why-item:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 50px rgba(13, 110, 253, 0.15);
-        }
-
-        .why-item .why-icon {
-            font-size: 40px;
-            color: var(--bs-primary);
-            margin-bottom: 15px;
-        }
-
-        .why-item h5 {
-            color: #ffffff;
-            margin-bottom: 10px;
-        }
-
-        .why-item p {
-            color: #d9d9d9;
-            margin: 0;
-            font-size: 14px;
-        }
-
-        /* Testimonials */
-        .testimonial-item {
-            background: var(--bs-dark);
-            padding: 35px 30px;
-            border-radius: 12px;
-            position: relative;
-            transition: .4s;
-            margin: 10px;
-        }
-
-        .testimonial-item:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
-        }
-
-        .testimonial-item .testimonial-quote {
-            font-size: 50px;
-            color: var(--bs-primary);
-            opacity: 0.15;
-            position: absolute;
-            top: 10px;
-            right: 25px;
-        }
-
-        .testimonial-item .testimonial-text {
-            font-style: italic;
-            color: #f0f0f0;
-            margin-bottom: 20px;
-            font-size: 16px;
-            line-height: 1.7;
-        }
-
-        .testimonial-item .testimonial-author {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .testimonial-item .testimonial-author img {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            border: 3px solid var(--bs-primary);
-            object-fit: cover;
-        }
-
-        .testimonial-item .testimonial-author h5 {
-            color: #ffffff;
-            margin: 0;
-            font-size: 16px;
-        }
-
-        .testimonial-item .testimonial-author span {
-            color: #cfcfcf;
-            font-size: 13px;
-        }
-
-        .testimonial-item .testimonial-rating {
-            color: #ffc107;
-            margin-top: 4px;
-            font-size: 14px;
-        }
-
-        .testimonial-carousel .owl-dots {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .testimonial-carousel .owl-dot {
-            display: inline-block;
-            margin: 0 5px;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: #6c7280;
-            transition: .3s;
-        }
-
-        .testimonial-carousel .owl-dot.active {
-            background: var(--bs-primary);
-            width: 30px;
-            border-radius: 20px;
-        }
-
-        /* Process / Steps */
-        .process-item {
-            text-align: center;
-            padding: 35px 25px;
-            background: var(--bs-dark);
-            border-radius: 12px;
-            transition: .4s;
-            position: relative;
-            height: 100%;
-        }
-
-        .process-item:hover {
-            transform: translateY(-5px);
-            background: var(--bs-secondary);
-        }
-
-        .process-item .process-number {
-            font-size: 55px;
-            font-weight: 700;
-            color: var(--bs-primary);
-            opacity: 0.12;
-            position: absolute;
-            top: 5px;
-            right: 20px;
-            font-family: "Roboto Slab", serif;
-        }
-
-        .process-item .process-icon {
-            font-size: 36px;
-            color: var(--bs-primary);
-            margin-bottom: 15px;
-        }
-
-        .process-item h5 {
-            color: #ffffff;
-            margin-bottom: 8px;
-        }
-
-        .process-item p {
-            color: #d9d9d9;
-            margin: 0;
-            font-size: 14px;
-        }
-
-        /* FAQ Accordion */
-        .faq-accordion .accordion-item {
-            background: transparent;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            margin-bottom: 12px;
-            border-radius: 12px;
-            overflow: hidden;
-        }
-
-        .faq-accordion .accordion-item .accordion-button {
-            background: var(--bs-dark);
-            color: #ffffff;
-            font-family: "Roboto Slab", serif;
-            font-weight: 500;
-            padding: 18px 25px;
-            border: none;
-            box-shadow: none;
-            font-size: 16px;
-        }
-
-        .faq-accordion .accordion-item .accordion-button:not(.collapsed) {
-            color: var(--bs-primary);
-            background: var(--bs-dark);
-        }
-
-        .faq-accordion .accordion-item .accordion-button:focus {
-            box-shadow: none;
-            border-color: transparent;
-        }
-
-        .faq-accordion .accordion-item .accordion-button::after {
-            filter: brightness(10);
-        }
-
-        .faq-accordion .accordion-item .accordion-body {
-            color: #d9d9d9;
-            padding: 0 25px 20px 25px;
-            background: var(--bs-dark);
-            font-size: 15px;
-            line-height: 1.7;
-        }
-
-        /* Clients / Partners */
-        .client-logo-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 25px;
-            background: var(--bs-dark);
-            border-radius: 12px;
-            transition: .4s;
-            height: 100px;
-        }
-
-        .client-logo-item:hover {
-            background: var(--bs-secondary);
-            transform: scale(1.05);
-        }
-
-        .client-logo-item i {
-            font-size: 48px;
-            color: #9aa0ab;
-            opacity: 0.6;
-            transition: .4s;
-        }
-
-        .client-logo-item:hover i {
-            color: var(--bs-primary);
-            opacity: 1;
-        }
-
-        .client-logo-item span {
-            color: #9aa0ab;
-            font-size: 20px;
-            font-weight: 600;
-            opacity: 0.6;
-            transition: .4s;
-        }
-
-        .client-logo-item:hover span {
-            color: #ffffff;
-            opacity: 1;
-        }
-
-        /* Certifications */
-        .cert-item {
-            text-align: center;
-            padding: 25px 20px;
-            background: var(--bs-dark);
-            border-radius: 12px;
-            transition: .4s;
-            height: 100%;
-        }
-
-        .cert-item:hover {
-            background: var(--bs-secondary);
-            transform: translateY(-5px);
-        }
-
-        .cert-item .cert-icon {
-            font-size: 36px;
-            color: var(--bs-primary);
-            margin-bottom: 10px;
-        }
-
-        .cert-item h6 {
-            color: #ffffff;
-            margin: 0;
-            font-size: 14px;
-        }
-
-        .cert-item small {
-            color: #cfcfcf;
-            font-size: 12px;
-        }
-
-        /* WhatsApp Floating Button */
-        .whatsapp-float {
-            position: fixed;
-            bottom: 30px;
-            left: 30px;
-            z-index: 999;
-            animation: whatsappPulse 2s infinite;
-        }
-
-        .whatsapp-float a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 60px;
-            height: 60px;
-            background: #25d366;
-            border-radius: 50%;
-            color: #fff;
-            font-size: 32px;
-            text-decoration: none;
-            box-shadow: 0 4px 25px rgba(37, 211, 102, 0.4);
-            transition: .3s;
-        }
-
-        .whatsapp-float a:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 35px rgba(37, 211, 102, 0.6);
-        }
-
-        @keyframes whatsappPulse {
-
-            0%,
-            100% {
-                transform: scale(1);
-            }
-
-            50% {
-                transform: scale(1.06);
-            }
-        }
-
-        /* Appointment Form */
-        .appointment-form .form-control {
-            background: var(--bs-dark);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            color: #ffffff;
-            padding: 14px 20px;
-            border-radius: 10px;
-        }
-
-        .appointment-form .form-control:focus {
-            background: var(--bs-dark);
-            border-color: var(--bs-primary);
-            box-shadow: none;
-        }
-
-        .appointment-form .form-control::placeholder {
-            color: #9aa0ab;
-        }
-
-        .appointment-form .form-label {
-            color: #ffffff;
-            font-weight: 500;
-        }
-
-        .appointment-form select.form-control {
-            appearance: auto;
-        }
-
-        /* Team Hover Fix */
-        .team-item {
-            overflow: hidden;
-            border-radius: 12px;
-            transition: .4s;
-        }
-
-        .team-item:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
-        }
-
-        .team-item .team-img img {
-            transition: .5s;
-        }
-
-        .team-item:hover .team-img img {
-            transform: scale(1.08);
-        }
-
-        .team-item .team-des {
-            transition: .4s;
-        }
-
-        .team-item:hover .team-des {
-            background: var(--bs-primary) !important;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .emergency-bar .emergency-text {
-                font-size: 13px;
-                gap: 10px;
-            }
-
-            .emergency-bar .emergency-text .phone-number {
-                font-size: 16px;
-                padding: 4px 16px;
-            }
-
-            .trust-indicator .trust-number {
-                font-size: 28px;
-            }
-
-            .whatsapp-float {
-                bottom: 20px;
-                left: 20px;
-            }
-
-            .whatsapp-float a {
-                width: 50px;
-                height: 50px;
-                font-size: 26px;
-            }
-        }
-
-        /* Privacy Policy & Terms Pages */
-        .legal-page {
-            background: var(--bs-dark);
-            padding: 40px;
-            border-radius: 12px;
-            color: #e6e6e6;
-        }
-
-        .legal-page h2 {
-            color: var(--bs-primary);
-            margin-top: 30px;
-        }
-
-        .legal-page h2:first-child {
-            margin-top: 0;
-        }
-
-        .legal-page h3 {
-            color: #ffffff;
-        }
-
-        .legal-page p {
-            color: #d9d9d9;
-            line-height: 1.8;
-        }
-
-        .legal-page ul {
-            color: #d9d9d9;
-            line-height: 1.8;
-        }
-
-        /* ===== TEXT COLOR / CONTRAST FIXES ===== */
-        /* Dark section backgrounds (bg-dark / bg-secondary) need light text for readability.
-           On light backgrounds (white cards, forms on light sections) text-dark/black is used instead. */
-        .text-white-50 {
-            color: rgba(255, 255, 255, 0.65) !important;
-        }
-
-        .text-white {
-            color: #ffffff !important;
-        }
-
-        .text-body {
-            color: rgba(255, 255, 255, 0.55) !important;
-        }
-
-        .bg-secondary {
-            background: #1a1f2e !important;
-        }
-
-        .bg-dark {
-            background: #0d1117 !important;
-        }
-
-        /* Headings and body copy inside dark sections default to white so they never
-           blend into the dark background. Where a section sits on a light/white
-           background (forms, cards), .text-dark below keeps copy black for contrast. */
-        .text-dark {
-            color: #111111 !important;
-        } .text-white-50 {
-    color: rgb(1 1 1 / 65%) !important;
-}.text-white-50 {
-    color: rgb(255 255 255 / 65%) !important;
+        /* ========================================
+   COMPLETE COLOR SYSTEM
+   ======================================== */
+
+/* ---- 1. SECTIONS WITH BG #1a1f2e (Dark) - Text MUST be WHITE ---- */
+
+/* Emergency Bar (Blue gradient - text white) */
+.emergency-bar,
+.emergency-bar * {
+    color: #ffffff !important;
 }
-.text-white-50 {
-    color: rgb(0 0 0 / 65%) !important;
+
+/* Topbar - bg-secondary = #1a1f2e */
+.bg-secondary,
+.bg-secondary *,
+.bg-secondary .text-white,
+.bg-secondary .text-white-50,
+.bg-secondary .text-body,
+.bg-secondary p,
+.bg-secondary span,
+.bg-secondary a {
+    color: #ffffff !important;
 }
-.text-white-50 {
-    color: rgb(255 255 255 / 65%) !important;
+
+/* Navbar - bg-dark */
+.bg-dark,
+.bg-dark *,
+.bg-dark .text-white,
+.bg-dark .text-white-50,
+.bg-dark .text-body,
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important;
 }
-.text-white {
-    color: #000000 !important;
+
+/* Hero Header - bg-secondary = #1a1f2e */
+.hero-header,
+.hero-header *,
+.hero-header .text-white,
+.hero-header .text-white-50,
+.hero-header .text-body,
+.hero-header p,
+.hero-header span,
+.hero-header h1,
+.hero-header h5 {
+    color: #ffffff !important;
 }
+
+/* Trust Indicators - bg #1a1f2e */
+.trust-indicator,
+.trust-indicator *,
+.trust-indicator .trust-label,
+.trust-indicator .trust-number {
+    color: #ffffff !important;
+}
+
+/* Why Choose Us - bg #1a1f2e */
+.why-item,
+.why-item *,
+.why-item h5,
+.why-item p,
+.why-item .why-icon {
+    color: #ffffff !important;
+}
+
+/* Process Section - bg #1a1f2e */
+.process-item,
+.process-item *,
+.process-item h5,
+.process-item p,
+.process-item .process-number,
+.process-item .process-icon {
+    color: #ffffff !important;
+}
+
+/* Testimonials - bg #1a1f2e */
+.testimonial-item,
+.testimonial-item *,
+.testimonial-item .testimonial-text,
+.testimonial-item .testimonial-author h5,
+.testimonial-item .testimonial-author span {
+    color: #ffffff !important;
+}
+
+/* Team Section - bg #1a1f2e */
+#team,
+#team *,
+#team .text-white,
+#team .text-white-50,
+#team .text-body,
+#team h1,
+#team h4,
+#team p,
+#team span {
+    color: #ffffff !important;
+}
+
+/* Certifications - bg #1a1f2e */
+.cert-item,
+.cert-item *,
+.cert-item h6,
+.cert-item small,
+.cert-item .cert-icon {
+    color: #ffffff !important;
+}
+
+/* Appointment Section - bg #1a1f2e */
+#appointment,
+#appointment *,
+#appointment .text-white,
+#appointment .text-white-50,
+#appointment .text-body,
+#appointment h1,
+#appointment h4,
+#appointment h6,
+#appointment p,
+#appointment li,
+#appointment span {
+    color: #ffffff !important;
+}
+
+/* Contact Section - bg #1a1f2e */
+#contact,
+#contact *,
+#contact .text-white,
+#contact .text-white-50,
+#contact .text-body,
+#contact h1,
+#contact h4,
+#contact h6,
+#contact p,
+#contact li,
+#contact span,
+#contact strong {
+    color: #ffffff !important;
+}
+
+/* Footer - bg #1a1f2e */
+.footer,
+.footer *,
+.footer .text-white,
+.footer .text-white-50,
+.footer .text-body,
+.footer h4,
+.footer p,
+.footer span,
+.footer a,
+.footer .btn-link,
+.footer .list-group li a,
+.footer .list-group li small {
+    color: #ffffff !important;
+}
+
+/* Copyright - bg #121624 (dark) */
+.copyright,
+.copyright *,
+.copyright .text-white,
+.copyright a {
+    color: #ffffff !important;
+}
+
+/* Newsletter Section - bg #1a1f2e */
+.bg-secondary.py-5,
+.bg-secondary.py-5 *,
+.bg-secondary.py-5 .text-white,
+.bg-secondary.py-5 .text-white-50,
+.bg-secondary.py-5 .text-body,
+.bg-secondary.py-5 h1,
+.bg-secondary.py-5 p {
+    color: #ffffff !important;
+}
+
+/* Legal Pages (Privacy & Terms) - bg #1a1f2e */
+.legal-page,
+.legal-page *,
+.legal-page h2,
+.legal-page h3,
+.legal-page p,
+.legal-page ul,
+.legal-page li {
+    color: #ffffff !important;
+}
+
+/* Statistics on Hero - bg #1a1f2e */
+.text-center.bg-dark.p-4,
+.text-center.bg-dark.p-4 *,
+.text-center.bg-dark.p-4 .text-white,
+.text-center.bg-dark.p-4 .text-white-50,
+.text-center.bg-dark.p-4 h1,
+.text-center.bg-dark.p-4 span {
+    color: #ffffff !important;
+}
+
+/* About Experience Badge - bg #1a1f2e */
+.about-exp,
+.about-exp *,
+.about-exp .text-white,
+.about-exp h1,
+.about-exp span {
+    color: #ffffff !important;
+}
+
+/* Practice Areas - on dark bg */
+.practice-item,
+.practice-item *,
+.practice-item h4,
+.practice-item p,
+.practice-item .text-primary,
+.practice-item .text-white,
+.practice-item .text-white-50 {
+    color: #ffffff !important;
+}
+
+/* Case Studies - on dark bg */
+.case-item,
+.case-item *,
+.case-item h4,
+.case-item p,
+.case-item h1,
+.case-item .text-white,
+.case-item .text-white-50 {
+    color: #ffffff !important;
+}
+
+/* Blog - on dark bg */
+.blog-item,
+.blog-item *,
+.blog-item h4,
+.blog-item p,
+.blog-item .text-white,
+.blog-item .text-white-50,
+.blog-item small {
+    color: #ffffff !important;
+}
+
+/* Client Logos - on dark bg */
+.client-logo-item,
+.client-logo-item *,
+.client-logo-item i,
+.client-logo-item span {
+    color: #ffffff !important;
+}
+
+/* Dropdown Menu - bg-light (white) - Text BLACK */
+.dropdown-menu,
+.dropdown-menu *,
+.dropdown-menu .dropdown-item,
+.dropdown-menu .dropdown-item.text-dark,
+.dropdown-menu a {
+    color: #111111 !important;
+}
+.dropdown-menu .dropdown-item:hover {
+    color: #111111 !important;
+    background: #f0f0f0 !important;
+}
+
+/* ========================================
+   2. SECTIONS WITHOUT BG #1a1f2e - Text BLACK
+   ======================================== */
+
+/* About Section - no dark bg */
+#about,
+#about *,
+#about .text-dark,
+#about h1,
+#about h4,
+#about h6,
+#about p,
+#about li,
+#about span,
+#about .list-group-item {
+    color: #111111 !important;
+}
+/* About section specific - white text on dark elements */
+#about .bg-secondary,
+#about .bg-secondary *,
+#about .bg-dark,
+#about .bg-dark *,
+#about .text-white {
+    color: #ffffff !important;
+}
+
+/* Consultation Section - no dark bg */
+#consultation,
+#consultation *,
+#consultation .text-dark,
+#consultation h1,
+#consultation h6,
+#consultation p,
+#consultation label,
+#consultation .form-control,
+#consultation .form-floating label {
+    color: #111111 !important;
+}
+/* Consultation form fields - keep white bg with dark text */
+#consultation .form-control.bg-white,
+#consultation .form-control.bg-white * {
+    background: #ffffff !important;
+    color: #111111 !important;
+}
+
+/* FAQ Section - no dark bg */
+#faq,
+#faq *,
+#faq .text-dark,
+#faq h1,
+#faq h6,
+#faq p,
+#faq .accordion-body,
+#faq .accordion-button {
+    color: #111111 !important;
+}
+/* FAQ accordion items on dark bg inside */
+#faq .accordion-item,
+#faq .accordion-item *,
+#faq .accordion-button {
+    color: #ffffff !important;
+}
+#faq .accordion-button.collapsed {
+    color: #ffffff !important;
+}
+
+/* ========================================
+   3. FORM FIELDS ON DARK BG - White BG + Dark Text
+   ======================================== */
+
+/* Appointment Form - on dark bg */
+.appointment-form .form-control,
+.appointment-form .form-control *,
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+    background: #ffffff !important;
+    color: #111111 !important;
+    border: 1px solid #dee2e6 !important;
+}
+.appointment-form .form-control:focus {
+    background: #ffffff !important;
+    color: #111111 !important;
+    border-color: #0d6efd !important;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
+.appointment-form .form-control::placeholder {
+    color: #6c757d !important;
+}
+.appointment-form select.form-control option {
+    color: #111111 !important;
+    background: #ffffff !important;
+}
+.appointment-form label {
+    color: #111111 !important;
+}
+
+/* Contact Form - on dark bg */
+#contact .form-control,
+#contact .form-control *,
+#contact input,
+#contact select,
+#contact textarea {
+    background: #ffffff !important;
+    color: #111111 !important;
+    border: 1px solid #dee2e6 !important;
+}
+#contact .form-control:focus {
+    background: #ffffff !important;
+    color: #111111 !important;
+    border-color: #0d6efd !important;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
+#contact .form-control::placeholder {
+    color: #6c757d !important;
+}
+#contact .form-control option {
+    color: #111111 !important;
+    background: #ffffff !important;
+}
+#contact label {
+    color: #111111 !important;
+}
+
+/* ========================================
+   4. BOOTSTRAP OVERRIDES
+   ======================================== */
+
+/* Text color classes */
 .text-white {
     color: #ffffff !important;
-}.text-white-50 {
-    color: rgb(0 0 0 / 65%) !important;
-}.text-white {
-    color: #000000 !important;
-}.text-white-50 {
-    color: rgb(255 255 255 / 65%) !important;
-}.text-white-50 {
-    color: rgb(0 0 0 / 65%) !important;
-}.text-white-50 {
-    color: rgb(255 255 255 / 65%) !important;
-}.text-white-50 {
-    color: rgb(0 0 0 / 65%) !important;
-}.text-white-50 {
-    color: rgb(255 255 255 / 65%) !important;
-}.text-white-50 {
-    color: rgb(0 0 0 / 65%) !important;
-}.text-white-50 {
-    color: rgb(255 255 255 / 65%) !important;
 }
 .text-white-50 {
-    color: rgb(0 0 0 / 65%) !important;
-}.text-white-50 {
-    color: rgb(255 255 255 / 65%) !important;
-}.text-white {
-    color: #ffffff !important;
-}.text-white-50 {
-    color: rgb(0 0 0 / 65%) !important;
-}.text-white-50 {
-    color: rgb(255 255 255 / 65%) !important;
-}.text-white-50 {
-    color: rgb(0 0 0 / 65%) !important;
-}.text-white {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+.text-body {
+    color: rgba(255, 255, 255, 0.55) !important;
+}
+.text-dark {
+    color: #111111 !important;
+}
+.text-primary {
+    color: #0d6efd !important;
+}
+.text-secondary {
+    color: #6c757d !important;
+}
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Background classes */
+.bg-dark {
+    background: #0d1117 !important;
+}
+.bg-secondary {
+    background: #1a1f2e !important;
+}
+.bg-primary {
+    background: #0d6efd !important;
+}
+.bg-light {
+    background: #f8f9fa !important;
+}
+.bg-white {
+    background: #ffffff !important;
+}
+
+/* ========================================
+   5. RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+    .emergency-bar .emergency-text {
+        font-size: 13px;
+        gap: 10px;
+    }
+    .emergency-bar .emergency-text .phone-number {
+        font-size: 16px;
+        padding: 4px 16px;
+    }
+    .trust-indicator .trust-number {
+        font-size: 28px;
+    }
+    .whatsapp-float {
+        bottom: 20px;
+        left: 20px;
+    }
+    .whatsapp-float a {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+    }
+    .legal-page {
+        padding: 20px;
+    }
+    /* Mobile: practice items border fix */
+    .practice-item {
+        border: none !important;
+        box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+    }
+}/* ===== PRACTICE AREAS - ALL BLACK TEXT & ICONS ===== */
+#practice {
+    background: #ffffff !important;
+}
+
+#practice .section-title {
+    color: #0d6efd !important;
+}
+
+#practice .display-5 {
+    color: #111111 !important;
+}
+
+#practice .display-5 .text-primary {
+    color: #111111 !important;
+}
+
+#practice .text-white-50 {
+    color: #111111 !important;
+}
+
+#practice .practice-item {
+    background: #f8f9fa !important;
+    border-color: #dee2e6 !important;
+}
+
+#practice .practice-item h4 {
+    color: #111111 !important;
+}
+
+#practice .practice-item p {
+    color: #111111 !important;
+}
+
+/* Icons - Black */
+#practice .practice-item .fa-4x {
+    color: #111111 !important;
+}
+
+/* Arrow links - Black */
+#practice .practice-item .text-primary {
+    color: #111111 !important;
+}
+
+#practice .practice-item a {
+    color: #111111 !important;
+}
+
+/* Border fixes */
+#practice .border-bottom,
+#practice .border-end,
+#practice .border-lg-end,
+#practice .border-lg-end-0,
+#practice .border-lg-bottom-0 {
+    border-color: #dee2e6 !important;
+}
+
+/* Hover effect */
+#practice .practice-item:hover {
+    background: #e9ecef !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}/* ===== CASE STUDIES - ALL BLACK TEXT & WHITE BG ===== */
+#cases {
+    background: #ffffff !important;
+}
+
+#cases .section-title {
+    color: #0d6efd !important;
+}
+
+#cases .display-5 {
+    color: #111111 !important;
+}
+
+#cases .display-5 .text-primary {
+    color: #0d6efd !important;
+}
+
+#cases .text-white-50 {
+    color: #111111 !important;
+}
+
+/* Cards */
+#cases .case-item {
+    border-color: #dee2e6 !important;
+}
+
+#cases .case-item .border-bottom {
+    border-color: #dee2e6 !important;
+}
+
+#cases .case-item h4 {
+    color: #111111 !important;
+}
+
+#cases .case-item .display-4 {
+    color: #111111 !important;
+}
+
+#cases .case-item .text-white {
+    color: #111111 !important;
+}
+
+#cases .case-item .text-white-50 {
+    color: #111111 !important;
+}
+
+#cases .case-item .border-secondary {
+    border-color: #dee2e6 !important;
+}
+
+/* Hover effect */
+#cases .case-item:hover {
+    
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border-color: #0d6efd !important;
+}
+
+/* Heading colors override */
+#cases .case-item .w-75.text-white {
+    color: #111111 !important;
+}
+
+#cases .case-item .display-4.text-end.text-white {
+    color: #111111 !important;
+}.case-item, .case-item *, .case-item h4, .case-item p, .case-item h1, .case-item .text-white, .case-item .text-white-50 {
     color: #000000 !important;
-}.text-white-50 {
-    color: rgb(255 255 255 / 65%) !important;
+}.legal-page, .legal-page *, .legal-page h2, .legal-page h3, .legal-page p, .legal-page ul, .legal-page li {
+    color: #000000 !important;
 }
     </style>
 </head>
@@ -643,8 +636,7 @@
             <div class="emergency-text">
                 <span><i class="fas fa-shield-alt"></i> 24/7 Emergency Legal Support</span>
                 <span><i class="fas fa-phone"></i> Call Now:</span>
-                <a href="tel:+18005550199" class="phone-number"><i class="fas fa-phone-alt me-2"></i>+1 (800)
-                    555-0199</a>
+                <a href="tel:+18005550199" class="phone-number"><i class="fas fa-phone-alt me-2"></i>+1 (800) 555-0199</a>
                 <span><i class="fas fa-gavel"></i> Free Consultation Available</span>
             </div>
         </div>
@@ -655,8 +647,7 @@
         <div class="container">
             <div class="row py-3">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <p class="text-white mb-0"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Legal Avenue,
-                        New York, NY 10001, USA</p>
+                    <p class="text-white mb-0"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Legal Avenue, New York, NY 10001, USA</p>
                 </div>
                 <div class="col-lg-6 text-center text-lg-end">
                     <p class="text-white mb-0">
@@ -674,8 +665,7 @@
             <a href="index.html" class="navbar-brand bg-primary py-3 px-4">
                 <h2 class="text-secondary mb-0"><i class="fas fa-balance-scale me-2"></i>Lawfice</h2>
             </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse p-3" id="navbarCollapse">
@@ -685,13 +675,13 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Practice Areas</a>
                         <div class="dropdown-menu bg-light mt-2">
-                            <a href="#practice" class="dropdown-item">All Practices</a>
-                            <a href="#practice" class="dropdown-item">Corporate Law</a>
-                            <a href="#practice" class="dropdown-item">Criminal Law</a>
-                            <a href="#practice" class="dropdown-item">Family Law</a>
-                            <a href="#practice" class="dropdown-item">Property Law</a>
-                            <a href="#practice" class="dropdown-item">Immigration Law</a>
-                            <a href="#practice" class="dropdown-item">Financial Law</a>
+                            <a href="#practice" class="dropdown-item text-dark">All Practices</a>
+                            <a href="#practice" class="dropdown-item text-dark">Corporate Law</a>
+                            <a href="#practice" class="dropdown-item text-dark">Criminal Law</a>
+                            <a href="#practice" class="dropdown-item text-dark">Family Law</a>
+                            <a href="#practice" class="dropdown-item text-dark">Property Law</a>
+                            <a href="#practice" class="dropdown-item text-dark">Immigration Law</a>
+                            <a href="#practice" class="dropdown-item text-dark">Financial Law</a>
                         </div>
                     </div>
                     <a href="#testimonials" class="nav-item nav-link">Testimonials</a>
@@ -709,22 +699,17 @@
         <div class="container">
             <div class="row g-5 align-items-center mb-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="display-1 text-primary mb-4 animated slideInRight">Your Trusted <span
-                            class="text-white">Legal</span> Partner</h1>
-                    <h5 class="d-inline-block bg-dark text-primary py-3 px-4 mb-3 animated slideInRight">🏆
-                        Award-Winning Law Firm Since 1990</h5>
+                    <h1 class="display-1 text-primary mb-4 animated slideInRight">Your Trusted <span class="text-white">Legal</span> Partner</h1>
+                    <h5 class="d-inline-block bg-dark text-primary py-3 px-4 mb-3 animated slideInRight">🏆 Award-Winning Law Firm Since 1990</h5>
                     <p class="text-white-50 mb-4 animated slideInRight" style="font-size:18px;">
-                        For over three decades, <strong>Lawfice</strong> has helped individuals, families, and
+                        For over three decades, <strong class="text-white">Lawfice</strong> has helped individuals, families, and
                         businesses navigate complex legal challenges with confidence. Backed by
-                        <strong>500+ experienced attorneys</strong> and a proven track record of favorable
-                        outcomes, we combine deep legal knowledge with genuine, personal attention.
+                        <strong class="text-white">500+ experienced attorneys</strong> and a proven track record.
                         <strong class="text-primary">Your case matters to us — and it shows.</strong>
                     </p>
                     <div class="d-flex gap-3 flex-wrap animated slideInRight">
-                        <a href="#consultation" class="btn btn-primary py-3 px-5"><i
-                                class="fas fa-calendar-check me-2"></i>Free Consultation</a>
-                        <a href="#about" class="btn btn-outline-light py-3 px-5"><i
-                                class="fas fa-info-circle me-2"></i>Learn More</a>
+                        <a href="#consultation" class="btn btn-primary py-3 px-5"><i class="fas fa-calendar-check me-2"></i>Free Consultation</a>
+                        <a href="#about" class="btn btn-outline-light py-3 px-5"><i class="fas fa-info-circle me-2"></i>Learn More</a>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
@@ -814,61 +799,50 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <img class="img-fluid w-100 h-100 object-fit-cover" src="img/about-1.jpg"
-                                alt="Lawfice Team">
+                            <img class="img-fluid w-100 h-100 object-fit-cover" src="img/about-1.jpg" alt="Lawfice Team">
                         </div>
                         <div class="col-6">
-                            <img class="img-fluid w-100 h-100 object-fit-cover" src="img/about-2.jpg"
-                                alt="Lawfice Office">
+                            <img class="img-fluid w-100 h-100 object-fit-cover" src="img/about-2.jpg" alt="Lawfice Office">
                         </div>
                         <div class="col-6">
-                            <img class="img-fluid w-100 h-100 object-fit-cover" src="img/about-3.jpg"
-                                alt="Lawfice Consultation">
+                            <img class="img-fluid w-100 h-100 object-fit-cover" src="img/about-3.jpg" alt="Lawfice Consultation">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <h6 class="section-title text-primary">About Us</h6>
-                    <h1 class="display-5 mb-4 wow fadeIn" data-wow-delay="0.2s">The Firm Behind the <span
-                            class="text-primary">Results That Matter</span></h1>
+                    <h1 class="display-5 mb-4 wow fadeIn" data-wow-delay="0.2s">The Firm Behind the <span class="text-primary">Results That Matter</span></h1>
                     <p class="mb-3 text-white-50 wow fadeIn" data-wow-delay="0.3s" style="font-size:16px; line-height:1.8;">
-                        For over three decades, <strong class="text-white">Lawfice</strong> has represented
+                        For over three decades, <strong class="text-dark">Lawfice</strong> has represented
                         individuals and businesses through some of their most difficult legal challenges. Our team
-                        of <strong class="text-white">500+ attorneys</strong> brings together deep subject-matter
+                        of <strong class="text-dark">500+ attorneys</strong> brings together deep subject-matter
                         expertise, thorough case preparation, and a genuine commitment to every client we work with.
                     </p>
                     <p class="mb-4 text-white-50 wow fadeIn" data-wow-delay="0.35s" style="font-size:16px; line-height:1.8;">
                         We believe good legal representation is built on clear communication and careful strategy,
                         not shortcuts. That approach has helped us build a
-                        <strong class="text-white">track record our clients trust</strong>, along with
+                        <strong class="text-dark">track record our clients trust</strong>, along with
                         recognition as <strong class="text-primary">"Law Firm of the Year"</strong> for five
                         consecutive years by independent industry reviewers.
                     </p>
-                    <h4 class="text-white mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Why Choose Us!</h4>
+                    <h4 class="text-dark mb-3"><i class="fas fa-check-circle text-dark me-2"></i>Why Choose Us!</h4>
                     <div class="row gx-4 mb-4 wow fadeIn" data-wow-delay="0.4s">
                         <div class="col-sm-6">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item px-0 bg-transparent text-white-50"><i
-                                        class="fa fa-check text-primary me-2"></i>Certified & Experienced Lawyers</li>
-                                <li class="list-group-item px-0 bg-transparent text-white-50"><i
-                                        class="fa fa-check text-primary me-2"></i>Strong Track Record of Results</li>
-                                <li class="list-group-item px-0 bg-transparent text-white-50"><i
-                                        class="fa fa-check text-primary me-2"></i>Free Initial Consultation</li>
+                                <li class="list-group-item px-0 bg-transparent text-white-50"><i class="fa fa-check text-primary me-2"></i>Certified & Experienced Lawyers</li>
+                                <li class="list-group-item px-0 bg-transparent text-white-50"><i class="fa fa-check text-primary me-2"></i>Strong Track Record of Results</li>
+                                <li class="list-group-item px-0 bg-transparent text-white-50"><i class="fa fa-check text-primary me-2"></i>Free Initial Consultation</li>
                             </ul>
                         </div>
                         <div class="col-sm-6">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item px-0 bg-transparent text-white-50"><i
-                                        class="fa fa-check text-primary me-2"></i>24/7 Emergency Support</li>
-                                <li class="list-group-item px-0 bg-transparent text-white-50"><i
-                                        class="fa fa-check text-primary me-2"></i>Skilled, Dedicated Advocates</li>
-                                <li class="list-group-item px-0 bg-transparent text-white-50"><i
-                                        class="fa fa-check text-primary me-2"></i>Flexible Fee Arrangements</li>
+                                <li class="list-group-item px-0 bg-transparent text-white-50"><i class="fa fa-check text-primary me-2"></i>24/7 Emergency Support</li>
+                                <li class="list-group-item px-0 bg-transparent text-white-50"><i class="fa fa-check text-primary me-2"></i>Skilled, Dedicated Advocates</li>
+                                <li class="list-group-item px-0 bg-transparent text-white-50"><i class="fa fa-check text-primary me-2"></i>Flexible Fee Arrangements</li>
                             </ul>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5" href="#consultation"><i
-                            class="fas fa-calendar-check me-2"></i>Schedule Consultation</a>
+                    <a class="btn btn-primary py-3 px-5" href="#consultation"><i class="fas fa-calendar-check me-2"></i>Schedule Consultation</a>
                 </div>
             </div>
         </div>
@@ -880,8 +854,7 @@
             <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
                 <h6 class="section-title text-primary">Why Lawfice</h6>
                 <h1 class="display-5 mb-4">What Makes Us <span class="text-primary">Different</span></h1>
-                <p class="text-white-50 mb-5">We combine thorough, strategic representation with genuine
-                    understanding, so every client gets personal attention and clear legal guidance.</p>
+                <p class="text-white-50 mb-5">We combine thorough, strategic representation with genuine understanding, so every client gets personal attention and clear legal guidance.</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
@@ -916,81 +889,66 @@
         </div>
     </div>
 
-    <!-- ===== PRACTICE AREAS ===== -->
-    <div class="container-fluid py-5" id="practice">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                <h6 class="section-title text-primary">Practice Areas</h6>
-                <h1 class="display-5 mb-4">Comprehensive <span class="text-primary">Legal Solutions</span></h1>
-                <p class="text-white-50 mb-5">We provide dedicated legal representation across a wide range of
-                    practice areas, tailored to each client's situation.</p>
+   <!-- ===== PRACTICE AREAS ===== -->
+<div class="container-fluid py-5" id="practice" style="background: #ffffff;">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+            <h6 class="section-title text-primary">Practice Areas</h6>
+            <h1 class="display-5 mb-4 text-dark">Comprehensive <span class="text-primary">Legal Solutions</span></h1>
+            <p class="text-dark mb-5">We provide dedicated legal representation across a wide range of practice areas, tailored to each client's situation.</p>
+        </div>
+        <div class="row g-4 g-md-0 text-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="practice-item h-100 p-4 border-bottom border-end wow fadeIn" data-wow-delay="0.1s" style="background: #f8f9fa; border-color: #dee2e6 !important;">
+                    <i class="fa fa-building fa-4x text-primary mb-4"></i>
+                    <h4 class="mb-3 text-dark">Corporate Law</h4>
+                    <p class="text-dark">Strategic counsel for businesses of every size, from early-stage startups to large enterprises. We assist with incorporation, contracts, mergers, acquisitions, and commercial disputes.</p>
+                    <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
+                </div>
             </div>
-            <div class="row g-4 g-md-0 text-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="practice-item h-100 p-4 border-bottom border-end wow fadeIn" data-wow-delay="0.1s">
-                        <i class="fa fa-building fa-4x text-primary mb-4"></i>
-                        <h4 class="mb-3 text-white">Corporate Law</h4>
-                        <p class="text-white-50">Strategic counsel for businesses of every size, from early-stage
-                            startups to large enterprises. We assist with incorporation, contracts, mergers,
-                            acquisitions, and commercial disputes.</p>
-                        <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
-                    </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="practice-item h-100 p-4 border-bottom border-lg-end wow fadeIn" data-wow-delay="0.3s" style="background: #f8f9fa; border-color: #dee2e6 !important;">
+                    <i class="fa fa-user-shield fa-4x text-primary mb-4"></i>
+                    <h4 class="mb-3 text-dark">Criminal Law</h4>
+                    <p class="text-dark">A dedicated defense team focused on protecting your rights and your future. We prepare every case thoroughly, from pre-trial strategy through courtroom representation.</p>
+                    <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="practice-item h-100 p-4 border-bottom border-lg-end wow fadeIn" data-wow-delay="0.3s">
-                        <i class="fa fa-user-shield fa-4x text-primary mb-4"></i>
-                        <h4 class="mb-3 text-white">Criminal Law</h4>
-                        <p class="text-white-50">A dedicated defense team focused on protecting your rights and
-                            your future. We prepare every case thoroughly, from pre-trial strategy through
-                            courtroom representation.</p>
-                        <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
-                    </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="practice-item h-100 p-4 border-bottom border-end border-lg-end-0 wow fadeIn" data-wow-delay="0.5s" style="background: #f8f9fa; border-color: #dee2e6 !important;">
+                    <i class="fa fa-home fa-4x text-primary mb-4"></i>
+                    <h4 class="mb-3 text-dark">Family Law</h4>
+                    <p class="text-dark">Handling sensitive family matters with empathy and legal precision. We help clients navigate divorce, custody, support, and protective orders with clarity and care.</p>
+                    <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="practice-item h-100 p-4 border-bottom border-end border-lg-end-0 wow fadeIn"
-                        data-wow-delay="0.5s">
-                        <i class="fa fa-home fa-4x text-primary mb-4"></i>
-                        <h4 class="mb-3 text-white">Family Law</h4>
-                        <p class="text-white-50">Handling sensitive family matters with empathy and legal precision.
-                            We help clients navigate divorce, custody, support, and protective orders with clarity
-                            and care.</p>
-                        <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
-                    </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="practice-item h-100 p-4 border-bottom border-lg-bottom-0 border-lg-end wow fadeIn" data-wow-delay="0.1s" style="background: #f8f9fa; border-color: #dee2e6 !important;">
+                    <i class="fa fa-file-contract fa-4x text-primary mb-4"></i>
+                    <h4 class="mb-3 text-dark">Property Law</h4>
+                    <p class="text-dark">Guidance on real estate transactions, property disputes, zoning questions, and landlord-tenant matters for both residential and commercial properties.</p>
+                    <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="practice-item h-100 p-4 border-bottom border-lg-bottom-0 border-lg-end wow fadeIn"
-                        data-wow-delay="0.1s">
-                        <i class="fa fa-file-contract fa-4x text-primary mb-4"></i>
-                        <h4 class="mb-3 text-white">Property Law</h4>
-                        <p class="text-white-50">Guidance on real estate transactions, property disputes, zoning
-                            questions, and landlord-tenant matters for both residential and commercial
-                            properties.</p>
-                        <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
-                    </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="practice-item h-100 p-4 border-end wow fadeIn" data-wow-delay="0.3s" style="background: #f8f9fa; border-color: #dee2e6 !important;">
+                    <i class="fa fa-passport fa-4x text-primary mb-4"></i>
+                    <h4 class="mb-3 text-dark">Immigration Law</h4>
+                    <p class="text-dark">Comprehensive immigration services, including employment visas, family-based green cards, citizenship applications, and asylum cases for individuals and families.</p>
+                    <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="practice-item h-100 p-4 border-end wow fadeIn" data-wow-delay="0.3s">
-                        <i class="fa fa-passport fa-4x text-primary mb-4"></i>
-                        <h4 class="mb-3 text-white">Immigration Law</h4>
-                        <p class="text-white-50">Comprehensive immigration services, including employment visas,
-                            family-based green cards, citizenship applications, and asylum cases for individuals
-                            and families.</p>
-                        <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="practice-item h-100 p-4 wow fadeIn" data-wow-delay="0.5s">
-                        <i class="fa fa-coins fa-4x text-primary mb-4"></i>
-                        <h4 class="mb-3 text-white">Financial Law</h4>
-                        <p class="text-white-50">Practical support with financial litigation, regulatory
-                            compliance, banking law, and securities matters, helping protect your assets and
-                            interests.</p>
-                        <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
-                    </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="practice-item h-100 p-4 wow fadeIn" data-wow-delay="0.5s" style="background: #f8f9fa; border-color: #dee2e6 !important;">
+                    <i class="fa fa-coins fa-4x text-primary mb-4"></i>
+                    <h4 class="mb-3 text-dark">Financial Law</h4>
+                    <p class="text-dark">Practical support with financial litigation, regulatory compliance, banking law, and securities matters, helping protect your assets and interests.</p>
+                    <a href="#" class="text-primary"><i class="fa fa-arrow-right fa-2x"></i></a>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     <!-- ===== PROCESS / HOW WE WORK ===== -->
     <div class="container-fluid py-5" style="background: var(--bs-dark);">
@@ -998,8 +956,7 @@
             <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
                 <h6 class="section-title text-primary">Our Process</h6>
                 <h1 class="display-5 mb-4">How We <span class="text-primary">Work</span></h1>
-                <p class="text-white-50 mb-5">A clear, client-focused approach that keeps you informed at every
-                    stage of your case.</p>
+                <p class="text-white-50 mb-5">A clear, client-focused approach that keeps you informed at every stage of your case.</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
@@ -1007,8 +964,7 @@
                         <div class="process-number">01</div>
                         <div class="process-icon"><i class="fas fa-comment-dots"></i></div>
                         <h5>Free Consultation</h5>
-                        <p>Discuss your case with our attorneys. No obligation, just honest, straightforward
-                            advice.</p>
+                        <p>Discuss your case with our attorneys. No obligation, just honest, straightforward advice.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.2s">
@@ -1016,8 +972,7 @@
                         <div class="process-number">02</div>
                         <div class="process-icon"><i class="fas fa-search"></i></div>
                         <h5>Case Evaluation</h5>
-                        <p>We review your situation carefully, gather relevant facts, and build a strategy suited
-                            to your goals.</p>
+                        <p>We review your situation carefully, gather relevant facts, and build a strategy suited to your goals.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
@@ -1025,8 +980,7 @@
                         <div class="process-number">03</div>
                         <div class="process-icon"><i class="fas fa-gavel"></i></div>
                         <h5>Legal Action</h5>
-                        <p>We represent your interests diligently, in and out of the courtroom, using every
-                            legitimate tool available.</p>
+                        <p>We represent your interests diligently, in and out of the courtroom, using every legitimate tool available.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.4s">
@@ -1034,74 +988,61 @@
                         <div class="process-number">04</div>
                         <div class="process-icon"><i class="fas fa-flag-checkered"></i></div>
                         <h5>Resolution</h5>
-                        <p>We work toward the best realistic outcome for your case, whether through settlement,
-                            verdict, or dismissal.</p>
+                        <p>We work toward the best realistic outcome for your case, whether through settlement, verdict, or dismissal.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- ===== CASE STUDIES ===== -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                <h6 class="section-title text-primary">Case Studies</h6>
-                <h1 class="display-5 mb-4">Outcomes We're Proud to <span class="text-primary">Share</span>
-                </h1>
-                <p class="text-white-50 mb-5">A look at how our approach has helped clients resolve complex legal
-                    challenges.</p>
+   <!-- ===== CASE STUDIES ===== -->
+<div class="container-fluid py-5" id="cases" style="background: #ffffff;">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+            <h6 class="section-title text-primary">Case Studies</h6>
+            <h1 class="display-5 mb-4 text-dark">Outcomes We're Proud to <span class="text-primary">Share</span></h1>
+            <p class="text-dark mb-5">A look at how our approach has helped clients resolve complex legal challenges.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                <a href="#" class="case-item d-flex flex-column border h-100 p-4 rounded-3 text-decoration-none" style="background: #f8f9fa; border-color: #dee2e6 !important;">
+                    <div class="d-flex justify-content-between border-bottom pb-2 mb-3" style="border-color: #dee2e6 !important;">
+                        <h4 class="w-75 text-dark">Corporate Fraud Defense</h4>
+                        <h1 class="w-25 flex-shrink-0 display-4 text-end text-dark">01</h1>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="text-dark mb-3">Defended a corporate executive against complex fraud allegations. A detailed review of the evidence and a focused defense strategy led to the charges being dismissed.</p>
+                        <img class="img-fluid rounded" src="img/case-1.jpg" alt="Corporate Fraud Case">
+                    </div>
+                </a>
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <a href="#"
-                        class="case-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
-                        <div class="d-flex justify-content-between border-bottom pb-2 mb-3">
-                            <h4 class="w-75 text-white">Corporate Fraud Defense</h4>
-                            <h1 class="w-25 flex-shrink-0 display-4 text-end text-white">01</h1>
-                        </div>
-                        <div class="mt-auto">
-                            <p class="text-white-50 mb-3">Defended a corporate executive against complex fraud
-                                allegations. A detailed review of the evidence and a focused defense strategy led
-                                to the charges being dismissed.</p>
-                            <img class="img-fluid rounded" src="img/case-1.jpg" alt="Corporate Fraud Case">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <a href="#"
-                        class="case-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
-                        <div class="d-flex justify-content-between border-bottom pb-2 mb-3">
-                            <h4 class="w-75 text-white">Commercial Property Dispute</h4>
-                            <h1 class="w-25 flex-shrink-0 display-4 text-end text-white">02</h1>
-                        </div>
-                        <div class="mt-auto">
-                            <p class="text-white-50 mb-3">Resolved a complex commercial property dispute through
-                                negotiation, securing clear ownership rights and fair compensation for our
-                                client.</p>
-                            <img class="img-fluid rounded" src="img/case-2.jpg" alt="Real Estate Case">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <a href="#"
-                        class="case-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
-                        <div class="d-flex justify-content-between border-bottom pb-2 mb-3">
-                            <h4 class="w-75 text-white">Personal Injury Settlement</h4>
-                            <h1 class="w-25 flex-shrink-0 display-4 text-end text-white">03</h1>
-                        </div>
-                        <div class="mt-auto">
-                            <p class="text-white-50 mb-3">Secured a significant settlement for a client with a
-                                serious injury, helping cover ongoing medical care and provide financial security
-                                for the family.</p>
-                            <img class="img-fluid rounded" src="img/case-3.jpg" alt="Personal Injury Case">
-                        </div>
-                    </a>
-                </div>
+            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                <a href="#" class="case-item d-flex flex-column border h-100 p-4 rounded-3 text-decoration-none" style="background: #f8f9fa; border-color: #dee2e6 !important;">
+                    <div class="d-flex justify-content-between border-bottom pb-2 mb-3" style="border-color: #dee2e6 !important;">
+                        <h4 class="w-75 text-dark">Commercial Property Dispute</h4>
+                        <h1 class="w-25 flex-shrink-0 display-4 text-end text-dark">02</h1>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="text-dark mb-3">Resolved a complex commercial property dispute through negotiation, securing clear ownership rights and fair compensation for our client.</p>
+                        <img class="img-fluid rounded" src="img/case-2.jpg" alt="Real Estate Case">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                <a href="#" class="case-item d-flex flex-column border h-100 p-4 rounded-3 text-decoration-none" style="background: #f8f9fa; border-color: #dee2e6 !important;">
+                    <div class="d-flex justify-content-between border-bottom pb-2 mb-3" style="border-color: #dee2e6 !important;">
+                        <h4 class="w-75 text-dark">Personal Injury Settlement</h4>
+                        <h1 class="w-25 flex-shrink-0 display-4 text-end text-dark">03</h1>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="text-dark mb-3">Secured a significant settlement for a client with a serious injury, helping cover ongoing medical care and provide financial security for the family.</p>
+                        <img class="img-fluid rounded" src="img/case-3.jpg" alt="Personal Injury Case">
+                    </div>
+                </a>
             </div>
         </div>
     </div>
-
+</div>
     <!-- ===== TESTIMONIALS ===== -->
     <div class="container-fluid py-5" style="background: var(--bs-dark);" id="testimonials">
         <div class="container">
@@ -1114,68 +1055,56 @@
                 <div class="testimonial-item">
                     <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
                     <div class="testimonial-text">
-                        "Lawfice helped guide my business through a genuinely difficult period. Their team's
-                        attention to detail and clear strategy made a real difference, and I'm grateful for their
-                        support."
+                        "Lawfice helped guide my business through a genuinely difficult period. Their team's attention to detail and clear strategy made a real difference, and I'm grateful for their support."
                     </div>
                     <div class="testimonial-author">
                         <img src="img/team-1.jpg" alt="Mark Thompson">
                         <div>
                             <h5>Mark Thompson</h5>
                             <span>CEO, TechVentures</span>
-                            <div class="testimonial-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <div class="testimonial-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
                     <div class="testimonial-text">
-                        "The team handled my divorce with real empathy and precision, keeping my children's future
-                        and my interests front and center. I'd recommend them to anyone going through something
-                        similar."
+                        "The team handled my divorce with real empathy and precision, keeping my children's future and my interests front and center. I'd recommend them to anyone going through something similar."
                     </div>
                     <div class="testimonial-author">
                         <img src="img/team-2.jpg" alt="Jennifer Reynolds">
                         <div>
                             <h5>Jennifer Reynolds</h5>
                             <span>Client, Family Law</span>
-                            <div class="testimonial-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <div class="testimonial-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
                     <div class="testimonial-text">
-                        "Facing serious charges was one of the hardest moments of my life. The criminal defense
-                        team worked closely with me at every stage and treated my case with real seriousness and
-                        care."
+                        "Facing serious charges was one of the hardest moments of my life. The criminal defense team worked closely with me at every stage and treated my case with real seriousness and care."
                     </div>
                     <div class="testimonial-author">
                         <img src="img/team-3.jpg" alt="David Martinez">
                         <div>
                             <h5>David Martinez</h5>
                             <span>Client, Criminal Law</span>
-                            <div class="testimonial-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <div class="testimonial-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
                     <div class="testimonial-text">
-                        "I was worried about my immigration status and didn't know where to turn. The immigration
-                        team walked me through every step and helped me secure my green card. I'm incredibly
-                        thankful."
+                        "I was worried about my immigration status and didn't know where to turn. The immigration team walked me through every step and helped me secure my green card. I'm incredibly thankful."
                     </div>
                     <div class="testimonial-author">
                         <img src="img/team-4.jpg" alt="Sarah Ali">
                         <div>
                             <h5>Sarah Ali</h5>
                             <span>Client, Immigration Law</span>
-                            <div class="testimonial-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <div class="testimonial-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         </div>
                     </div>
                 </div>
@@ -1192,40 +1121,37 @@
                 </div>
                 <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
                     <h6 class="section-title text-primary">Consultation</h6>
-                    <h1 class="display-5 mb-4 wow fadeIn" data-wow-delay="0.2s">Schedule Your <span
-                            class="text-primary">Free Consultation</span></h1>
-                    <p class="mb-4 text-white-50 wow fadeIn" data-wow-delay="0.3s" style="font-size:16px; line-height:1.8;">
-                        Ready to discuss your case? Our team is here to listen, evaluate your situation, and give
-                        you honest legal advice.
-                        <strong class="text-white">Your first consultation is completely free — no obligation, no
-                            hidden fees.</strong>
+                    <h1 class="display-5 mb-4 wow fadeIn" data-wow-delay="0.2s">Schedule Your <span class="text-primary">Free Consultation</span></h1>
+                    <p class="mb-4 text-white-50 wow fadeIn" data-wow-delay="0.3s" style="font-size:18px; line-height:1.9;">
+                        Ready to discuss your case? Our experienced legal team is here to listen carefully, evaluate your situation thoroughly, and give you honest, straightforward legal advice tailored to your specific needs.
+                        <br><br>
+                        <strong class="text-dark">Your first consultation is completely free — with no obligation and absolutely no hidden fees.</strong>
+                        <br><br>
+                        We believe everyone deserves access to quality legal guidance, and we're committed to helping you understand your options before you make any decisions.
                     </p>
                     <form id="consultationForm" onsubmit="return validateConsultation()">
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control text-dark" id="consName" placeholder="Your Full Name"
-                                        required>
-                                    <label for="consName">Your Full Name</label>
+                                    <input type="text" class="form-control bg-white text-dark" id="consName" placeholder="Your Full Name" required>
+                                    <label for="consName" class="text-dark">Your Full Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control text-dark" id="consEmail" placeholder="Your Email"
-                                        required>
-                                    <label for="consEmail">Your Email</label>
+                                    <input type="email" class="form-control bg-white text-dark" id="consEmail" placeholder="Your Email" required>
+                                    <label for="consEmail" class="text-dark">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="tel" class="form-control text-dark" id="consPhone" placeholder="Your Phone"
-                                        required>
-                                    <label for="consPhone">Your Phone</label>
+                                    <input type="tel" class="form-control bg-white text-dark" id="consPhone" placeholder="Your Phone" required>
+                                    <label for="consPhone" class="text-dark">Your Phone</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <select class="form-control text-dark" id="consService" required>
+                                    <select class="form-control bg-white text-dark" id="consService" required>
                                         <option value="">Select Practice Area</option>
                                         <option value="Corporate Law">Corporate Law</option>
                                         <option value="Criminal Law">Criminal Law</option>
@@ -1235,19 +1161,17 @@
                                         <option value="Financial Law">Financial Law</option>
                                         <option value="Other">Other</option>
                                     </select>
-                                    <label for="consService">Practice Area</label>
+                                    <label for="consService" class="text-dark">Practice Area</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control text-dark" placeholder="Tell us about your case"
-                                        id="consMessage" style="height: 120px"></textarea>
-                                    <label for="consMessage">Tell us about your case</label>
+                                    <textarea class="form-control bg-white text-dark" placeholder="Tell us about your case" id="consMessage" style="height: 120px"></textarea>
+                                    <label for="consMessage" class="text-dark">Tell us about your case</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit"><i
-                                        class="fas fa-calendar-check me-2"></i>Book Free Consultation</button>
+                                <button class="btn btn-primary py-3 px-5" type="submit"><i class="fas fa-calendar-check me-2"></i>Book Free Consultation</button>
                             </div>
                         </div>
                     </form>
@@ -1262,8 +1186,7 @@
             <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
                 <h6 class="section-title text-primary">Our Lawyers</h6>
                 <h1 class="display-5 mb-4">Trusted Lawyers with <span class="text-primary">Proven Expertise</span></h1>
-                <p class="text-white-50 mb-5">Meet the dedicated legal professionals who represent your interests
-                    every day.</p>
+                <p class="text-white-50 mb-5">Meet the dedicated legal professionals who represent your interests every day.</p>
             </div>
             <div class="row g-4 g-md-0">
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
@@ -1328,8 +1251,7 @@
             <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
                 <h6 class="section-title text-primary">Our Partners</h6>
                 <h1 class="display-5 mb-4">Trusted by Leading <span class="text-primary">Organizations</span></h1>
-                <p class="text-white-50 mb-5">We're proud to work with respected names across multiple
-                    industries.</p>
+                <p class="text-white-50 mb-5 text-dark">We're proud to work with respected names across multiple industries.</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-6 col-md-4 col-lg-2 wow fadeIn" data-wow-delay="0.1s">
@@ -1420,107 +1342,97 @@
         </div>
     </div>
 
-    <!-- ===== FAQ ===== -->
-    <div class="container-fluid py-5" id="faq">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                <h6 class="section-title text-primary">FAQ</h6>
-                <h1 class="display-5 mb-4">Frequently Asked <span class="text-primary">Questions</span></h1>
-                <p class="text-white-50 mb-5">Answers to the questions we hear most often about our legal
-                    services.</p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="accordion faq-accordion" id="faqAccordion">
-                        <div class="accordion-item wow fadeIn" data-wow-delay="0.1s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq1">
-                                    How much does a consultation cost?
-                                </button>
-                            </h2>
-                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Your first consultation is <strong>completely free</strong>. We want to
-                                    understand your case before discussing any fees, and there's no obligation to
-                                    proceed afterward.
-                                </div>
+   <!-- ===== FAQ ===== -->
+<div class="container-fluid py-5" id="faq" style="background: #ffffff;">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+            <h6 class="section-title text-primary">FAQ</h6>
+            <h1 class="display-5 mb-4 text-dark">Frequently Asked <span class="text-primary">Questions</span></h1>
+            <p class="text-dark mb-5">Answers to the questions we hear most often about our legal services.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="accordion faq-accordion" id="faqAccordion">
+                    <!-- Question 1 -->
+                    <div class="accordion-item wow fadeIn" data-wow-delay="0.1s" style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; margin-bottom: 12px; overflow: hidden;">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" style="background: #f8f9fa; color: #000000 !important; font-weight: 600; padding: 18px 25px; border: none; box-shadow: none;">
+                                How much does a consultation cost?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-dark" style="color: #000000 !important; background: #ffffff; padding: 0 25px 20px 25px; line-height: 1.7;">
+                                Your first consultation is completely free. We want to understand your case before discussing any fees, and there's no obligation to proceed afterward.
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2">
-                                    How long does a typical case take?
-                                </button>
-                            </h2>
-                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Every case is different, and timelines depend on complexity. Many
-                                    straightforward matters resolve within <strong>60-90 days</strong>, while
-                                    others take longer. We'll give you a realistic estimate after reviewing your
-                                    case.
-                                </div>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="accordion-item wow fadeIn" data-wow-delay="0.2s" style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; margin-bottom: 12px; overflow: hidden;">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" style="background: #f8f9fa; color: #000000 !important; font-weight: 600; padding: 18px 25px; border: none; box-shadow: none;">
+                                How long does a typical case take?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-dark" style="color: #000000 !important; background: #ffffff; padding: 0 25px 20px 25px; line-height: 1.7;">
+                                Every case is different, and timelines depend on complexity. Many straightforward matters resolve within 60-90 days, while others take longer. We'll give you a realistic estimate after reviewing your case.
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq3">
-                                    Do you handle cases outside New York?
-                                </button>
-                            </h2>
-                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Yes. We represent clients in multiple states and work with a network of
-                                    partner firms, so reach out and we'll confirm whether we can assist with your
-                                    jurisdiction.
-                                </div>
+                    </div>
+
+                    <!-- Question 3 -->
+                    <div class="accordion-item wow fadeIn" data-wow-delay="0.3s" style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; margin-bottom: 12px; overflow: hidden;">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" style="background: #f8f9fa; color: #000000 !important; font-weight: 600; padding: 18px 25px; border: none; box-shadow: none;">
+                                Do you handle cases outside New York?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-dark" style="color: #000000 !important; background: #ffffff; padding: 0 25px 20px 25px; line-height: 1.7;">
+                                Yes. We represent clients in multiple states and work with a network of partner firms, so reach out and we'll confirm whether we can assist with your jurisdiction.
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeIn" data-wow-delay="0.4s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq4">
-                                    What is your success rate?
-                                </button>
-                            </h2>
-                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    We've built a strong track record across our practice areas over 35 years.
-                                    That said, every case is unique and outcomes depend on its specific facts —
-                                    we'll always give you an honest assessment rather than a guarantee.
-                                </div>
+                    </div>
+
+                    <!-- Question 4 -->
+                    <div class="accordion-item wow fadeIn" data-wow-delay="0.4s" style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; margin-bottom: 12px; overflow: hidden;">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" style="background: #f8f9fa; color: #000000 !important; font-weight: 600; padding: 18px 25px; border: none; box-shadow: none;">
+                                What is your success rate?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-dark" style="color: #000000 !important; background: #ffffff; padding: 0 25px 20px 25px; line-height: 1.7;">
+                                We've built a strong track record across our practice areas over 35 years. That said, every case is unique and outcomes depend on its specific facts — we'll always give you an honest assessment rather than a guarantee.
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeIn" data-wow-delay="0.5s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq5">
-                                    Are your services confidential?
-                                </button>
-                            </h2>
-                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Yes. All communications with our attorneys are protected by
-                                    <strong>attorney-client privilege</strong> and handled with strict
-                                    confidentiality.
-                                </div>
+                    </div>
+
+                    <!-- Question 5 -->
+                    <div class="accordion-item wow fadeIn" data-wow-delay="0.5s" style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; margin-bottom: 12px; overflow: hidden;">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" style="background: #f8f9fa; color: #000000 !important; font-weight: 600; padding: 18px 25px; border: none; box-shadow: none;">
+                                Are your services confidential?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-dark" style="color: #000000 !important; background: #ffffff; padding: 0 25px 20px 25px; line-height: 1.7;">
+                                Yes. All communications with our attorneys are protected by attorney-client privilege and handled with strict confidentiality.
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeIn" data-wow-delay="0.6s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq6">
-                                    What payment options do you offer?
-                                </button>
-                            </h2>
-                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    We offer flexible payment options, including credit cards, structured payment
-                                    plans, and contingency arrangements for eligible cases. We'll walk you through
-                                    what's available for your situation during your consultation.
-                                </div>
+                    </div>
+
+                    <!-- Question 6 -->
+                    <div class="accordion-item wow fadeIn" data-wow-delay="0.6s" style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; margin-bottom: 12px; overflow: hidden;">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" style="background: #f8f9fa; color: #000000 !important; font-weight: 600; padding: 18px 25px; border: none; box-shadow: none;">
+                                What payment options do you offer?
+                            </button>
+                        </h2>
+                        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-dark" style="color: #000000 !important; background: #ffffff; padding: 0 25px 20px 25px; line-height: 1.7;">
+                                We offer flexible payment options, including credit cards, structured payment plans, and contingency arrangements for eligible cases. We'll walk you through what's available for your situation during your consultation.
                             </div>
                         </div>
                     </div>
@@ -1528,6 +1440,7 @@
             </div>
         </div>
     </div>
+</div>
 
     <!-- ===== BLOG ===== -->
     <div class="container-fluid py-5" style="background: var(--bs-dark);" id="blog">
@@ -1535,67 +1448,50 @@
             <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
                 <h6 class="section-title text-primary">Blog</h6>
                 <h1 class="display-5 mb-4">Stay Informed with Our <span class="text-primary">Legal Insights</span></h1>
-                <p class="text-white-50 mb-5">Practical legal information and updates from our team of
-                    attorneys.</p>
+                <p class="text-white-50 mb-5">Practical legal information and updates from our team of attorneys.</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <a href="#"
-                        class="blog-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
+                    <a href="#" class="blog-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
                         <h4 class="mb-3 text-white">How Contracts Prevent Business Disputes</h4>
                         <img class="img-fluid w-100 mb-3 rounded" src="img/blog-1.jpg" alt="Contract Law">
-                        <p class="text-white-50 mb-3">A closer look at how well-drafted contracts help protect
-                            your business and reduce the risk of costly disputes down the line.</p>
+                        <p class="text-white-50 mb-3">A closer look at how well-drafted contracts help protect your business and reduce the risk of costly disputes down the line.</p>
                         <div class="d-flex border-top pt-3">
-                            <small class="text-white-50 mb-0 me-3"><i
-                                    class="fa fa-user text-primary me-1"></i>Admin</small>
-                            <small class="text-white-50 mb-0"><i class="fa fa-calendar text-primary me-1"></i>Jan 15,
-                                2024</small>
+                            <small class="text-white-50 mb-0 me-3"><i class="fa fa-user text-primary me-1"></i>Admin</small>
+                            <small class="text-white-50 mb-0"><i class="fa fa-calendar text-primary me-1"></i>Jan 15, 2024</small>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <a href="#"
-                        class="blog-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
+                    <a href="#" class="blog-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
                         <h4 class="mb-3 text-white">Essential Steps Before Filing a Lawsuit</h4>
                         <img class="img-fluid w-100 mb-3 rounded" src="img/blog-2.jpg" alt="Lawsuit Preparation">
-                        <p class="text-white-50 mb-3">Key steps to take before filing a lawsuit, so you enter the
-                            process with a stronger, better-documented case.</p>
+                        <p class="text-white-50 mb-3">Key steps to take before filing a lawsuit, so you enter the process with a stronger, better-documented case.</p>
                         <div class="d-flex border-top pt-3">
-                            <small class="text-white-50 mb-0 me-3"><i
-                                    class="fa fa-user text-primary me-1"></i>Admin</small>
-                            <small class="text-white-50 mb-0"><i class="fa fa-calendar text-primary me-1"></i>Jan 10,
-                                2024</small>
+                            <small class="text-white-50 mb-0 me-3"><i class="fa fa-user text-primary me-1"></i>Admin</small>
+                            <small class="text-white-50 mb-0"><i class="fa fa-calendar text-primary me-1"></i>Jan 10, 2024</small>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <a href="#"
-                        class="blog-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
+                    <a href="#" class="blog-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
                         <h4 class="mb-3 text-white">What to Do After a Car Accident</h4>
                         <img class="img-fluid w-100 mb-3 rounded" src="img/blog-3.jpg" alt="Car Accident">
-                        <p class="text-white-50 mb-3">A practical guide covering what to do immediately after a
-                            car accident to protect your health, rights, and insurance claim.</p>
+                        <p class="text-white-50 mb-3">A practical guide covering what to do immediately after a car accident to protect your health, rights, and insurance claim.</p>
                         <div class="d-flex border-top pt-3">
-                            <small class="text-white-50 mb-0 me-3"><i
-                                    class="fa fa-user text-primary me-1"></i>Admin</small>
-                            <small class="text-white-50 mb-0"><i class="fa fa-calendar text-primary me-1"></i>Jan 5,
-                                2024</small>
+                            <small class="text-white-50 mb-0 me-3"><i class="fa fa-user text-primary me-1"></i>Admin</small>
+                            <small class="text-white-50 mb-0"><i class="fa fa-calendar text-primary me-1"></i>Jan 5, 2024</small>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <a href="#"
-                        class="blog-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
+                    <a href="#" class="blog-item d-flex flex-column border border-secondary h-100 p-4 rounded-3 text-decoration-none">
                         <h4 class="mb-3 text-white">Common Mistakes During Divorce Proceedings</h4>
                         <img class="img-fluid w-100 mb-3 rounded" src="img/blog-4.jpg" alt="Divorce Case">
-                        <p class="text-white-50 mb-3">Common mistakes that can cost you time, money, and peace of
-                            mind during divorce, and how to avoid them.</p>
+                        <p class="text-white-50 mb-3">Common mistakes that can cost you time, money, and peace of mind during divorce, and how to avoid them.</p>
                         <div class="d-flex border-top pt-3">
-                            <small class="text-white-50 mb-0 me-3"><i
-                                    class="fa fa-user text-primary me-1"></i>Admin</small>
-                            <small class="text-white-50 mb-0"><i class="fa fa-calendar text-primary me-1"></i>Dec 28,
-                                2023</small>
+                            <small class="text-white-50 mb-0 me-3"><i class="fa fa-user text-primary me-1"></i>Admin</small>
+                            <small class="text-white-50 mb-0"><i class="fa fa-calendar text-primary me-1"></i>Dec 28, 2023</small>
                         </div>
                     </a>
                 </div>
@@ -1603,57 +1499,49 @@
         </div>
     </div>
 
-    <!-- ===== APPOINTMENT BOOKING ===== -->
-    <div class="container-fluid py-5" id="appointment">
+    <!-- ===== APPOINTMENT BOOKING - DARK BG ===== -->
+    <div class="container-fluid py-5" style="background: var(--bs-dark);" id="appointment">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <h6 class="section-title text-primary">Book Appointment</h6>
-                    <h1 class="display-5 mb-4">Schedule Your <span class="text-primary">Appointment</span> Online</h1>
+                    <h1 class="display-5 mb-4 text-white">Schedule Your <span class="text-primary">Appointment</span> Online</h1>
                     <p class="text-white-50 mb-4" style="font-size:16px; line-height:1.8;">
-                        Choose a date and time that works for you. Our team will confirm your appointment within
-                        <strong class="text-white">24 hours</strong>.
+                        Choose a date and time that works for you. Our team will confirm your appointment within <strong class="text-white">24 hours</strong>.
                     </p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-transparent text-white-50 border-secondary"><i
-                                class="fa fa-check-circle text-primary me-2"></i>Free 30-minute consultation</li>
-                        <li class="list-group-item bg-transparent text-white-50 border-secondary"><i
-                                class="fa fa-check-circle text-primary me-2"></i>Meet in-person, by phone, or video</li>
-                        <li class="list-group-item bg-transparent text-white-50 border-secondary"><i
-                                class="fa fa-check-circle text-primary me-2"></i>No obligation to proceed</li>
-                        <li class="list-group-item bg-transparent text-white-50 border-secondary"><i
-                                class="fa fa-check-circle text-primary me-2"></i>Flexible scheduling options</li>
+                        <li class="list-group-item bg-transparent text-white-50 border-secondary"><i class="fa fa-check-circle text-primary me-2"></i>Free 30-minute consultation</li>
+                        <li class="list-group-item bg-transparent text-white-50 border-secondary"><i class="fa fa-check-circle text-primary me-2"></i>Meet in-person, by phone, or video</li>
+                        <li class="list-group-item bg-transparent text-white-50 border-secondary"><i class="fa fa-check-circle text-primary me-2"></i>No obligation to proceed</li>
+                        <li class="list-group-item bg-transparent text-white-50 border-secondary"><i class="fa fa-check-circle text-primary me-2"></i>Flexible scheduling options</li>
                     </ul>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="bg-dark p-4 p-md-5 rounded-4">
+                    <div class="bg-dark p-4 p-md-5 rounded-4" style="background: #0d1117 !important;">
                         <h4 class="text-white mb-4"><i class="fas fa-calendar-alt text-primary me-2"></i>Book Now</h4>
                         <form id="appointmentForm" onsubmit="return validateAppointment()">
                             <div class="row g-3">
                                 <div class="col-sm-6">
                                     <div class="form-floating appointment-form">
-                                        <input type="text" class="form-control" id="appName" placeholder="Full Name"
-                                            required>
-                                        <label for="appName">Full Name</label>
+                                        <input type="text" class="form-control bg-white text-dark" id="appName" placeholder="Full Name" required>
+                                        <label for="appName" class="text-dark">Full Name</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating appointment-form">
-                                        <input type="email" class="form-control" id="appEmail" placeholder="Email"
-                                            required>
-                                        <label for="appEmail">Email</label>
+                                        <input type="email" class="form-control bg-white text-dark" id="appEmail" placeholder="Email" required>
+                                        <label for="appEmail" class="text-dark">Email</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating appointment-form">
-                                        <input type="tel" class="form-control" id="appPhone" placeholder="Phone"
-                                            required>
-                                        <label for="appPhone">Phone</label>
+                                        <input type="tel" class="form-control bg-white text-dark" id="appPhone" placeholder="Phone" required>
+                                        <label for="appPhone" class="text-dark">Phone</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating appointment-form">
-                                        <select class="form-control" id="appArea" required>
+                                        <select class="form-control bg-white text-dark" id="appArea" required>
                                             <option value="">Select Area</option>
                                             <option value="Corporate Law">Corporate Law</option>
                                             <option value="Criminal Law">Criminal Law</option>
@@ -1662,18 +1550,18 @@
                                             <option value="Immigration Law">Immigration Law</option>
                                             <option value="Financial Law">Financial Law</option>
                                         </select>
-                                        <label for="appArea">Practice Area</label>
+                                        <label for="appArea" class="text-dark">Practice Area</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating appointment-form">
-                                        <input type="date" class="form-control" id="appDate" required>
-                                        <label for="appDate">Preferred Date</label>
+                                        <input type="date" class="form-control bg-white text-dark" id="appDate" required>
+                                        <label for="appDate" class="text-dark">Preferred Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating appointment-form">
-                                        <select class="form-control" id="appTime" required>
+                                        <select class="form-control bg-white text-dark" id="appTime" required>
                                             <option value="">Select Time</option>
                                             <option value="09:00">09:00 AM</option>
                                             <option value="10:00">10:00 AM</option>
@@ -1685,20 +1573,17 @@
                                             <option value="16:00">04:00 PM</option>
                                             <option value="17:00">05:00 PM</option>
                                         </select>
-                                        <label for="appTime">Preferred Time</label>
+                                        <label for="appTime" class="text-dark">Preferred Time</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating appointment-form">
-                                        <textarea class="form-control" id="appMessage"
-                                            placeholder="Brief description of your case"
-                                            style="height: 100px"></textarea>
-                                        <label for="appMessage">Brief description of your case</label>
+                                        <textarea class="form-control bg-white text-dark" id="appMessage" placeholder="Brief description of your case" style="height: 100px"></textarea>
+                                        <label for="appMessage" class="text-dark">Brief description of your case</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary py-3 w-100" type="submit"><i
-                                            class="fas fa-calendar-check me-2"></i>Book Appointment</button>
+                                    <button class="btn btn-primary py-3 w-100" type="submit"><i class="fas fa-calendar-check me-2"></i>Book Appointment</button>
                                 </div>
                             </div>
                         </form>
@@ -1713,81 +1598,68 @@
         <div class="container">
             <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
                 <h6 class="section-title text-primary">Contact</h6>
-                <h1 class="display-5 mb-4">Have Any Query? <span class="text-primary">Contact Us</span></h1>
-                <p class="text-white-50 mb-5">We're here to help — reach out anytime and our team will get back to
-                    you.</p>
+                <h1 class="display-5 mb-4 text-white">Have Any Query? <span class="text-primary">Contact Us</span></h1>
+                <p class="text-white-50 mb-5">We're here to help — reach out anytime and our team will get back to you.</p>
             </div>
             <div class="row g-5 justify-content-center">
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="bg-dark p-4 rounded-4 h-100">
+                    <div class="bg-dark p-4 rounded-4 h-100" style="background: #0d1117 !important;">
                         <h4 class="text-primary mb-4"><i class="fas fa-info-circle me-2"></i>Get in Touch</h4>
                         <div class="mb-4">
-                            <p class="text-white-50 mb-1"><i class="fa fa-map-marker-alt text-primary me-2"></i><strong
-                                    class="text-white">Address:</strong></p>
+                            <p class="text-white-50 mb-1"><i class="fa fa-map-marker-alt text-primary me-2"></i><strong class="text-white">Address:</strong></p>
                             <p class="text-white-50 ps-4">123 Legal Avenue, New York, NY 10001, USA</p>
                         </div>
                         <div class="mb-4">
-                            <p class="text-white-50 mb-1"><i class="fa fa-phone-alt text-primary me-2"></i><strong
-                                    class="text-white">Phone:</strong></p>
+                            <p class="text-white-50 mb-1"><i class="fa fa-phone-alt text-primary me-2"></i><strong class="text-white">Phone:</strong></p>
                             <p class="text-white-50 ps-4">+1 (800) 555-0199</p>
                         </div>
                         <div class="mb-4">
-                            <p class="text-white-50 mb-1"><i class="fa fa-envelope text-primary me-2"></i><strong
-                                    class="text-white">Email:</strong></p>
+                            <p class="text-white-50 mb-1"><i class="fa fa-envelope text-primary me-2"></i><strong class="text-white">Email:</strong></p>
                             <p class="text-white-50 ps-4">info@lawfice.com</p>
                         </div>
                         <div>
-                            <p class="text-white-50 mb-1"><i class="fa fa-clock text-primary me-2"></i><strong
-                                    class="text-white">Business Hours:</strong></p>
-                            <p class="text-white-50 ps-4">Mon-Fri: 09:00 AM - 07:00 PM<br>Sat: 09:00 AM - 12:00
-                                PM<br>Sun: Closed</p>
+                            <p class="text-white-50 mb-1"><i class="fa fa-clock text-primary me-2"></i><strong class="text-white">Business Hours:</strong></p>
+                            <p class="text-white-50 ps-4">Mon-Fri: 09:00 AM - 07:00 PM<br>Sat: 09:00 AM - 12:00 PM<br>Sun: Closed</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="bg-dark p-4 p-md-5 rounded-4">
-                        <h4 class="text-white mb-4"><i class="fas fa-paper-plane text-primary me-2"></i>Send Us a
-                            Message</h4>
+                    <div class="bg-dark p-4 p-md-5 rounded-4" style="background: #0d1117 !important;">
+                        <h4 class="text-white mb-4"><i class="fas fa-paper-plane text-primary me-2"></i>Send Us a Message</h4>
                         <form id="contactForm" onsubmit="return validateContact()">
                             <div class="row">
                                 <div class="col-sm-6 control-group mb-3">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control bg-secondary border-0 text-white" id="contactName"
-                                            placeholder="Your Name" required>
-                                        <label for="contactName">Your Name</label>
+                                        <input type="text" class="form-control bg-white text-dark" id="contactName" placeholder="Your Name" required>
+                                        <label for="contactName" class="text-dark">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 control-group mb-3">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control bg-secondary border-0 text-white" id="contactEmail"
-                                            placeholder="Your Email" required>
-                                        <label for="contactEmail">Your Email</label>
+                                        <input type="email" class="form-control bg-white text-dark" id="contactEmail" placeholder="Your Email" required>
+                                        <label for="contactEmail" class="text-dark">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 control-group mb-3">
                                     <div class="form-floating">
-                                        <input type="tel" class="form-control bg-secondary border-0 text-white" id="contactPhone"
-                                            placeholder="Mobile" required>
-                                        <label for="contactPhone">Mobile</label>
+                                        <input type="tel" class="form-control bg-white text-dark" id="contactPhone" placeholder="Mobile" required>
+                                        <label for="contactPhone" class="text-dark">Mobile</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 control-group mb-3">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control bg-secondary border-0 text-white"
-                                            id="contactSubject" placeholder="Subject" required>
-                                        <label for="contactSubject">Subject</label>
+                                        <input type="text" class="form-control bg-white text-dark" id="contactSubject" placeholder="Subject" required>
+                                        <label for="contactSubject" class="text-dark">Subject</label>
                                     </div>
                                 </div>
                                 <div class="col-12 control-group mb-3">
                                     <div class="form-floating">
-                                        <textarea style="height: 180px" class="form-control bg-secondary border-0 text-white"
-                                            id="contactMessage" placeholder="Message" required></textarea>
-                                        <label for="contactMessage">Your Message</label>
+                                        <textarea style="height: 180px" class="form-control bg-white text-dark" id="contactMessage" placeholder="Message" required></textarea>
+                                        <label for="contactMessage" class="text-dark">Your Message</label>
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <button class="btn btn-primary py-3 px-5" type="submit"><i
-                                            class="fas fa-paper-plane me-2"></i>Send Message</button>
+                                    <button class="btn btn-primary py-3 px-5" type="submit"><i class="fas fa-paper-plane me-2"></i>Send Message</button>
                                 </div>
                             </div>
                         </form>
@@ -1798,10 +1670,7 @@
             <div class="row mt-5 wow fadeIn" data-wow-delay="0.3s">
                 <div class="col-12">
                     <div class="rounded-4 overflow-hidden" style="height: 300px;">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316bb7ae3b%3A0xb6eefa0b7f1ab7e!2sWall%20St%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1700000000000"
-                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316bb7ae3b%3A0xb6eefa0b7f1ab7e!2sWall%20St%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1700000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
                 </div>
@@ -1817,19 +1686,13 @@
                     <div class="legal-page">
                         <h2>Privacy Policy</h2>
                         <p><strong>Last Updated:</strong> January 1, 2024</p>
-                        <p>At Lawfice, protecting your privacy is important to us. This Privacy Policy explains how
-                            we collect, use, and safeguard your personal information when you visit our website or
-                            use our services.</p>
+                        <p>At Lawfice, protecting your privacy is important to us. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or use our services.</p>
 
                         <h3>Information We Collect</h3>
                         <ul>
-                            <li><strong>Personal Information:</strong> Name, email address, phone number, and any
-                                other information you provide through our forms.</li>
-                            <li><strong>Usage Data:</strong> Information about how you interact with our website,
-                                such as pages visited and time spent on the site.</li>
-                            <li><strong>Cookies:</strong> We use cookies, including those used by third-party
-                                advertising and analytics providers such as Google, to understand site usage and
-                                serve relevant content.</li>
+                            <li><strong>Personal Information:</strong> Name, email address, phone number, and any other information you provide through our forms.</li>
+                            <li><strong>Usage Data:</strong> Information about how you interact with our website, such as pages visited and time spent on the site.</li>
+                            <li><strong>Cookies:</strong> We use cookies to understand site usage and serve relevant content.</li>
                         </ul>
 
                         <h3>How We Use Your Information</h3>
@@ -1841,24 +1704,15 @@
                             <li>To comply with legal obligations</li>
                         </ul>
 
-                        <h3>Advertising & Third-Party Cookies</h3>
-                        <p>We may use third-party advertising companies, including Google, to serve ads when you
-                            visit our website. These companies may use cookies or similar technologies to serve ads
-                            based on your prior visits to this and other websites. You can learn more about how
-                            Google uses data and manage your ad preferences through Google's Ads Settings.</p>
-
                         <h3>Information Sharing</h3>
-                        <p>We do not sell your personal information to third parties. We may share your
-                            information with:</p>
+                        <p>We do not sell your personal information to third parties. We may share your information with:</p>
                         <ul>
-                            <li>Trusted service providers who help us operate our website and deliver our services
-                            </li>
+                            <li>Trusted service providers who help us operate our website and deliver our services</li>
                             <li>Law enforcement or regulatory authorities when required by law</li>
                         </ul>
 
                         <h3>Data Security</h3>
-                        <p>We use reasonable technical and organizational measures to help protect your personal
-                            information against unauthorized access, alteration, disclosure, or destruction.</p>
+                        <p>We use reasonable technical and organizational measures to help protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
 
                         <h3>Your Rights</h3>
                         <ul>
@@ -1872,42 +1726,32 @@
                         <h3>Contact Us</h3>
                         <p>If you have any questions about this Privacy Policy, please contact us at:</p>
                         <p><strong>Email:</strong> privacy@lawfice.com<br>
-                            <strong>Phone:</strong> +1 (800) 555-0199
-                        </p>
+                        <strong>Phone:</strong> +1 (800) 555-0199</p>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
                     <div class="legal-page">
                         <h2>Terms & Conditions</h2>
                         <p><strong>Last Updated:</strong> January 1, 2024</p>
-                        <p>Welcome to Lawfice. By using our website and services, you agree to comply with and be
-                            bound by the following terms and conditions.</p>
+                        <p>Welcome to Lawfice. By using our website and services, you agree to comply with and be bound by the following terms and conditions.</p>
 
                         <h3>Acceptance of Terms</h3>
-                        <p>By accessing this website, you acknowledge that you have read, understood, and agree to
-                            be bound by these Terms & Conditions. If you do not agree with any part of these terms,
-                            please do not use our website.</p>
+                        <p>By accessing this website, you acknowledge that you have read, understood, and agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, please do not use our website.</p>
 
                         <h3>Services</h3>
-                        <p>Lawfice provides legal consultation and representation services. The information on this
-                            website is for general informational purposes only and does not constitute legal
-                            advice. You should consult with a qualified attorney for advice specific to your
-                            situation.</p>
+                        <p>Lawfice provides legal consultation and representation services. The information on this website is for general informational purposes only and does not constitute legal advice. You should consult with a qualified attorney for advice specific to your situation.</p>
 
                         <h3>Intellectual Property</h3>
                         <ul>
-                            <li>All content on this website, including text, images, graphics, and logos, is the
-                                property of Lawfice and protected by copyright law.</li>
-                            <li>You may not reproduce, distribute, or create derivative works from any content
-                                without our express written permission.</li>
+                            <li>All content on this website, including text, images, graphics, and logos, is the property of Lawfice and protected by copyright law.</li>
+                            <li>You may not reproduce, distribute, or create derivative works from any content without our express written permission.</li>
                             <li>Lawfice and the Lawfice logo are trademarks of the firm.</li>
                         </ul>
 
                         <h3>User Conduct</h3>
                         <ul>
                             <li>You agree to use our website for lawful purposes only</li>
-                            <li>You will not engage in any activity that could harm, disrupt, or impair the
-                                functionality of our website</li>
+                            <li>You will not engage in any activity that could harm, disrupt, or impair the functionality of our website</li>
                             <li>You will not attempt to gain unauthorized access to any part of our systems</li>
                             <li>You will not submit false or misleading information</li>
                         </ul>
@@ -1915,36 +1759,26 @@
                         <h3>Disclaimer of Warranties</h3>
                         <ul>
                             <li>Our website and services are provided "as is" without warranties of any kind</li>
-                            <li>We do not guarantee that our website will be error-free, secure, or continuously
-                                available</li>
-                            <li>Legal outcomes are never guaranteed and depend on the specific facts of each case
-                            </li>
+                            <li>We do not guarantee that our website will be error-free, secure, or continuously available</li>
+                            <li>Legal outcomes are never guaranteed and depend on the specific facts of each case</li>
                         </ul>
 
                         <h3>Limitation of Liability</h3>
-                        <p>To the fullest extent permitted by law, Lawfice shall not be liable for any indirect,
-                            incidental, special, consequential, or punitive damages arising from your use of our
-                            website or services.</p>
+                        <p>To the fullest extent permitted by law, Lawfice shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our website or services.</p>
 
                         <h3>Attorney-Client Relationship</h3>
-                        <p>Submitting information through our website or scheduling a consultation does not by
-                            itself create an attorney-client relationship. That relationship is established only
-                            after a formal engagement agreement is signed.</p>
+                        <p>Submitting information through our website or scheduling a consultation does not by itself create an attorney-client relationship. That relationship is established only after a formal engagement agreement is signed.</p>
 
                         <h3>Governing Law</h3>
-                        <p>These terms are governed by and construed in accordance with the laws of the State of
-                            New York, without regard to its conflict of law provisions.</p>
+                        <p>These terms are governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of law provisions.</p>
 
                         <h3>Changes to Terms</h3>
-                        <p>We may update these Terms & Conditions from time to time. Changes take effect
-                            immediately upon posting to this page. Continued use of our website constitutes
-                            acceptance of the updated terms.</p>
+                        <p>We may update these Terms & Conditions from time to time. Changes take effect immediately upon posting to this page. Continued use of our website constitutes acceptance of the updated terms.</p>
 
                         <h3>Contact Us</h3>
                         <p>If you have any questions about these Terms & Conditions, please contact us at:</p>
                         <p><strong>Email:</strong> legal@lawfice.com<br>
-                            <strong>Phone:</strong> +1 (800) 555-0199
-                        </p>
+                        <strong>Phone:</strong> +1 (800) 555-0199</p>
                     </div>
                 </div>
             </div>
@@ -1956,130 +1790,111 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-5 text-white mb-4"><i
-                            class="fas fa-envelope-open-text text-primary me-3"></i>Subscribe to Our Newsletter</h1>
-                    <p class="text-white-50 mb-4">Get practical legal insights and firm updates delivered straight
-                        to your inbox.</p>
+                    <h1 class="display-5 text-white mb-4"><i class="fas fa-envelope-open-text text-primary me-3"></i>Subscribe to Our Newsletter</h1>
+                    <p class="text-white-50 mb-4">Get practical legal insights and firm updates delivered straight to your inbox.</p>
                     <div class="position-relative w-100 mb-2">
-                        <input class="form-control bg-dark border-0 w-100 ps-4 pe-5 text-white" type="email"
-                            placeholder="Enter Your Email" style="height: 60px;" id="newsletterEmail">
-                        <button type="button"
-                            class="btn btn-lg-square shadow-none position-absolute top-0 end-0 mt-2 me-2"
-                            onclick="subscribeNewsletter()">
+                        <input class="form-control bg-dark border-0 w-100 ps-4 pe-5 text-white" type="email" placeholder="Enter Your Email" style="height: 60px;" id="newsletterEmail">
+                        <button type="button" class="btn btn-lg-square shadow-none position-absolute top-0 end-0 mt-2 me-2" onclick="subscribeNewsletter()">
                             <i class="fa fa-paper-plane text-primary fs-4"></i>
                         </button>
                     </div>
-                    <p class="text-white-50 mb-0"><i class="fas fa-shield-alt text-primary me-2"></i>We respect
-                        your inbox — no spam, ever.</p>
+                    <p class="text-white-50 mb-0"><i class="fas fa-shield-alt text-primary me-2"></i>We respect your inbox — no spam, ever.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- ===== FOOTER ===== -->
-    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-primary mb-4"><i class="fas fa-balance-scale me-2"></i>Lawfice</h4>
-                    <p class="text-white-50 mb-3">Award-winning law firm providing dedicated legal representation
-                        since 1990.</p>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i><span
-                            class="text-white-50">123 Legal Avenue, New York, NY 10001</span></p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i><span class="text-white-50">+1
-                            (800) 555-0199</span></p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i><span
-                            class="text-white-50">info@lawfice.com</span></p>
-                    <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href="#"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-square btn-primary" href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
+<!-- ===== FOOTER ===== -->
+<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s" style="background: #ffffff; color: #000000 !important;">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4" style="color: #000000 !important;"><i class="fas fa-balance-scale me-2" style="color: #000000 !important;"></i>Lawfice</h4>
+                <p class="mb-3" style="color: #000000 !important;">Award-winning law firm providing dedicated legal representation since 1990.</p>
+                <p class="mb-2" style="color: #000000 !important;"><i class="fa fa-map-marker-alt me-3" style="color: #000000 !important;"></i><span style="color: #000000 !important;">123 Legal Avenue, New York, NY 10001</span></p>
+                <p class="mb-2" style="color: #000000 !important;"><i class="fa fa-phone-alt me-3" style="color: #000000 !important;"></i><span style="color: #000000 !important;">+1 (800) 555-0199</span></p>
+                <p class="mb-2" style="color: #000000 !important;"><i class="fa fa-envelope me-3" style="color: #000000 !important;"></i><span style="color: #000000 !important;">info@lawfice.com</span></p>
+                <div class="d-flex pt-3">
+                    <a class="btn btn-square me-2" href="#" style="background: #f0f0f0; color: #000000 !important; border: 1px solid #dee2e6;"><i class="fab fa-twitter" style="color: #000000 !important;"></i></a>
+                    <a class="btn btn-square me-2" href="#" style="background: #f0f0f0; color: #000000 !important; border: 1px solid #dee2e6;"><i class="fab fa-facebook-f" style="color: #000000 !important;"></i></a>
+                    <a class="btn btn-square me-2" href="#" style="background: #f0f0f0; color: #000000 !important; border: 1px solid #dee2e6;"><i class="fab fa-youtube" style="color: #000000 !important;"></i></a>
+                    <a class="btn btn-square me-2" href="#" style="background: #f0f0f0; color: #000000 !important; border: 1px solid #dee2e6;"><i class="fab fa-linkedin-in" style="color: #000000 !important;"></i></a>
+                    <a class="btn btn-square" href="#" style="background: #f0f0f0; color: #000000 !important; border: 1px solid #dee2e6;"><i class="fab fa-instagram" style="color: #000000 !important;"></i></a>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-primary mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="#about">About Us</a>
-                    <a class="btn btn-link" href="#contact">Contact Us</a>
-                    <a class="btn btn-link" href="#practice">Our Services</a>
-                    <a class="btn btn-link" href="#privacy">Privacy Policy</a>
-                    <a class="btn btn-link" href="#privacy">Terms & Conditions</a>
-                    <a class="btn btn-link" href="#faq">FAQ</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-primary mb-4">Latest News</h4>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item px-0 bg-transparent border-secondary">
-                            <a href="#" class="d-block mb-1 text-white">How Contracts Prevent Business Disputes</a>
-                            <div class="d-flex">
-                                <small class="mb-0 me-3 text-white-50"><i
-                                        class="fa fa-user text-primary me-1"></i>Admin</small>
-                                <small class="mb-0 text-white-50"><i class="fa fa-calendar text-primary me-1"></i>Jan
-                                    15, 2024</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item px-0 bg-transparent border-secondary">
-                            <a href="#" class="d-block mb-1 text-white">Essential Steps Before Filing a Lawsuit</a>
-                            <div class="d-flex">
-                                <small class="mb-0 me-3 text-white-50"><i
-                                        class="fa fa-user text-primary me-1"></i>Admin</small>
-                                <small class="mb-0 text-white-50"><i class="fa fa-calendar text-primary me-1"></i>Jan
-                                    10, 2024</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item px-0 bg-transparent border-secondary">
-                            <a href="#" class="d-block mb-1 text-white">What to Do After a Car Accident</a>
-                            <div class="d-flex">
-                                <small class="mb-0 me-3 text-white-50"><i
-                                        class="fa fa-user text-primary me-1"></i>Admin</small>
-                                <small class="mb-0 text-white-50"><i class="fa fa-calendar text-primary me-1"></i>Jan 5,
-                                    2024</small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-primary mb-4">Business Hours</h4>
-                    <p class="text-white-50 mb-1">Monday - Friday</p>
-                    <h6 class="text-white">09:00 AM - 07:00 PM</h6>
-                    <p class="text-white-50 mb-1 mt-3">Saturday</p>
-                    <h6 class="text-white">09:00 AM - 12:00 PM</h6>
-                    <p class="text-white-50 mb-1 mt-3">Sunday</p>
-                    <h6 class="text-white">Closed</h6>
-                    <p class="text-white-50 mt-3"><i class="fas fa-phone-alt text-primary me-2"></i>Emergency: <strong
-                            class="text-primary">24/7</strong></p>
-                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4" style="color: #000000 !important;">Quick Links</h4>
+                <a class="btn btn-link" href="#about" style="color: #000000 !important; text-decoration: none; display: block; margin-bottom: 5px; padding: 0;">About Us</a>
+                <a class="btn btn-link" href="#contact" style="color: #000000 !important; text-decoration: none; display: block; margin-bottom: 5px; padding: 0;">Contact Us</a>
+                <a class="btn btn-link" href="#practice" style="color: #000000 !important; text-decoration: none; display: block; margin-bottom: 5px; padding: 0;">Our Services</a>
+                <a class="btn btn-link" href="#privacy" style="color: #000000 !important; text-decoration: none; display: block; margin-bottom: 5px; padding: 0;">Privacy Policy</a>
+                <a class="btn btn-link" href="#privacy" style="color: #000000 !important; text-decoration: none; display: block; margin-bottom: 5px; padding: 0;">Terms & Conditions</a>
+                <a class="btn btn-link" href="#faq" style="color: #000000 !important; text-decoration: none; display: block; margin-bottom: 5px; padding: 0;">FAQ</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4" style="color: #000000 !important;">Latest News</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-0 bg-transparent" style="border-color: #dee2e6 !important;">
+                        <a href="#" class="d-block mb-1" style="color: #000000 !important; text-decoration: none;">How Contracts Prevent Business Disputes</a>
+                        <div class="d-flex">
+                            <small class="mb-0 me-3" style="color: #000000 !important;"><i class="fa fa-user me-1" style="color: #000000 !important;"></i>Admin</small>
+                            <small class="mb-0" style="color: #000000 !important;"><i class="fa fa-calendar me-1" style="color: #000000 !important;"></i>Jan 15, 2024</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item px-0 bg-transparent" style="border-color: #dee2e6 !important;">
+                        <a href="#" class="d-block mb-1" style="color: #000000 !important; text-decoration: none;">Essential Steps Before Filing a Lawsuit</a>
+                        <div class="d-flex">
+                            <small class="mb-0 me-3" style="color: #000000 !important;"><i class="fa fa-user me-1" style="color: #000000 !important;"></i>Admin</small>
+                            <small class="mb-0" style="color: #000000 !important;"><i class="fa fa-calendar me-1" style="color: #000000 !important;"></i>Jan 10, 2024</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item px-0 bg-transparent" style="border-color: #dee2e6 !important;">
+                        <a href="#" class="d-block mb-1" style="color: #000000 !important; text-decoration: none;">What to Do After a Car Accident</a>
+                        <div class="d-flex">
+                            <small class="mb-0 me-3" style="color: #000000 !important;"><i class="fa fa-user me-1" style="color: #000000 !important;"></i>Admin</small>
+                            <small class="mb-0" style="color: #000000 !important;"><i class="fa fa-calendar me-1" style="color: #000000 !important;"></i>Jan 5, 2024</small>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4" style="color: #000000 !important;">Business Hours</h4>
+                <p class="mb-1" style="color: #000000 !important;">Monday - Friday</p>
+                <h6 style="color: #000000 !important;">09:00 AM - 07:00 PM</h6>
+                <p class="mb-1 mt-3" style="color: #000000 !important;">Saturday</p>
+                <h6 style="color: #000000 !important;">09:00 AM - 12:00 PM</h6>
+                <p class="mb-1 mt-3" style="color: #000000 !important;">Sunday</p>
+                <h6 style="color: #000000 !important;">Closed</h6>
+                <p class="mt-3" style="color: #000000 !important;"><i class="fas fa-phone-alt me-2" style="color: #000000 !important;"></i>Emergency: <strong style="color: #000000 !important;">24/7</strong></p>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- ===== COPYRIGHT ===== -->
-    <div class="container-fluid copyright py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="fw-semi-bold text-white" href="#">Lawfice</a>, All Rights Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    Designed with <i class="fas fa-heart text-primary"></i> by <a class="fw-semi-bold text-primary"
-                        href="https://htmlcodex.com">HTML Codex</a>
-                </div>
+   <!-- ===== COPYRIGHT ===== -->
+<div class="container-fluid copyright py-4" style="background: #ffffff; color: #000000 !important;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="color: #000000 !important; text-decoration: none;">
+                &copy; <a class="fw-semi-bold" href="#" style="color: #000000 !important; text-decoration: none;">Lawfice</a>, All Rights Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end" style="color: #000000 !important;">
+                Designed with <i class="fas fa-heart" style="color: #000000 !important;"></i> by <a class="fw-semi-bold" href="https://htmlcodex.com" style="color: #000000 !important; text-decoration: none;">HTML Codex</a>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- ===== BACK TO TOP ===== -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+<!-- ===== BACK TO TOP ===== -->
+<a href="#" class="btn btn-lg btn-square back-to-top" style="background: #f0f0f0; color: #000000 !important; border: 1px solid #dee2e6; display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 8px; text-decoration: none; position: fixed; bottom: 30px; right: 30px; z-index: 99; transition: all 0.3s;">
+    <i class="bi bi-arrow-up" style="color: #000000 !important; font-size: 20px;"></i>
+</a>
     <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
     <div class="whatsapp-float">
-        <a href="https://wa.me/18005550199?text=Hello%20Lawfice%2C%20I%20need%20legal%20assistance." target="_blank"
-            aria-label="Chat on WhatsApp">
+        <a href="https://wa.me/18005550199?text=Hello%20Lawfice%2C%20I%20need%20legal%20assistance." target="_blank" aria-label="Chat on WhatsApp">
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>
-
     <!-- ===== JAVASCRIPT LIBRARIES ===== -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -2087,19 +1902,16 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
     <!-- ===== TEMPLATE JAVASCRIPT ===== -->
     <script src="js/main.js"></script>
-
     <!-- ===== CUSTOM JAVASCRIPT ===== -->
     <script>
         // ===== SPINNER =====
-        window.addEventListener('load', function () {
+        window.addEventListener('load', function() {
             document.getElementById('spinner').classList.remove('show');
         });
-
         // ===== TESTIMONIALS CAROUSEL =====
-        $(document).ready(function () {
+        $(document).ready(function() {
             $(".testimonial-carousel").owlCarousel({
                 loop: true,
                 margin: 30,
@@ -2108,20 +1920,18 @@
                 autoplay: true,
                 autoplayTimeout: 5000,
                 responsive: {
-                    0: {items: 1},
-                    768: {items: 2},
-                    992: {items: 3}
+                    0: { items: 1 },
+                    768: { items: 2 },
+                    992: { items: 3 }
                 }
             });
         });
-
         // ===== CONSULTATION FORM VALIDATION =====
         function validateConsultation() {
             var name = document.getElementById('consName').value.trim();
             var email = document.getElementById('consEmail').value.trim();
             var phone = document.getElementById('consPhone').value.trim();
             var service = document.getElementById('consService').value;
-
             if (name === '' || email === '' || phone === '' || service === '') {
                 alert('Please fill in all required fields.');
                 return false;
@@ -2197,21 +2007,20 @@
 
         // ===== SMOOTH SCROLLING =====
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+            anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({behavior: 'smooth', block: 'start'});
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
         });
 
         // ===== BACK TO TOP =====
-        $('.back-to-top').click(function () {
-            $('html, body').animate({scrollTop: 0}, 500);
+        $('.back-to-top').click(function() {
+            $('html, body').animate({ scrollTop: 0 }, 500);
             return false;
         });
     </script>
 </body>
-
 </html>
